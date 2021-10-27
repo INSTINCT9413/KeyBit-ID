@@ -226,5 +226,5 @@ Project Link: [https://github.com/INSTINCT9413/KeyBit-ID](https://github.com/INS
 [license-shield]: https://img.shields.io/github/license/INSTINCT9413/KeyBit-ID.svg?style=for-the-badge
 [license-url]: https://github.com/INSTINCT9413/KeyBit-ID/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/in/jacobbrookhouse/
 [product-screenshot]: images/screenshot.png
