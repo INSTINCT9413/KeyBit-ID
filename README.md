@@ -99,7 +99,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [Svelte](https://svelte.dev/)
 * [Laravel](https://laravel.com)
 * [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [JQuery](https://jquery.co)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
