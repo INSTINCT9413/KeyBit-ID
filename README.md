@@ -33,8 +33,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/INSTINCT9413/KeyBit-ID/tree/master/KeyBit%20ID%20Images/key_125px.png">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/INSTINCT9413/KeyBit-ID/">
+    <img src="https://github.com/INSTINCT9413/KeyBit-ID/tree/master/KeyBit%20ID%20Images/key_125px.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">project_title</h3>
