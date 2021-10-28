@@ -23,8 +23,8 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-<a href="https://twitter.com/intent/follow?screen_name=shields_io">
-        <img src="https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter"
+<a href="https://twitter.com/intent/follow?screen_name=INSTINCTxTV">
+        <img src="https://img.shields.io/twitter/follow/INSTINCTxTV?style=social&logo=twitter"
             alt="follow on Twitter"></a>
 
 
