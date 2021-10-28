@@ -1,4 +1,19 @@
-﻿namespace KeyBit_ID.Classes
+﻿#region Header Block
+//  About this Program
+//  
+//  Programmer:     Jacob Brookhouse
+//  Class:          CITP 280 - 70591
+//  Application:    KeyBit ID - Password Manager
+//  Description:    KeyBit ID is a password manager that allows a user to save sensitive
+//                  information, such as passwords and account information.
+//
+#endregion
+#region About this file
+//
+// This class contains the logic to get and set the UserID account variables throught the application
+//
+#endregion
+namespace KeyBit_ID.Classes
 {
     class UserID
     {

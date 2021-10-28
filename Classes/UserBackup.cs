@@ -1,4 +1,20 @@
-﻿using KeyBit_ID.Forms;
+﻿#region Header Block
+//  About this Program
+//  
+//  Programmer:     Jacob Brookhouse
+//  Class:          CITP 280 - 70591
+//  Application:    KeyBit ID - Password Manager
+//  Description:    KeyBit ID is a password manager that allows a user to save sensitive
+//                  information, such as passwords and account information.
+//
+#endregion
+#region About this file
+//
+// This class contains the logic to create a backup as a .zip file, allows the user to backup and restore their account
+//
+#endregion
+
+using KeyBit_ID.Forms;
 using KeyBit_ID.Interfaces;
 using MaterialSkin.Controls;
 using System;
