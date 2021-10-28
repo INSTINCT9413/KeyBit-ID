@@ -17,7 +17,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-<center>
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -26,15 +25,12 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 <a href="https://twitter.com/intent/follow?screen_name=INSTINCTxTV">
-        <img src="https://img.shields.io/twitter/follow/INSTINCTxTV?style=social&logo=twitter"
-            alt="follow on Twitter"></a>
-
-</center>
+<img src="https://img.shields.io/twitter/follow/INSTINCTxTV?style=social&logo=twitter"alt="follow on Twitter"></a>
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/INSTINCT9413/KeyBit-ID">
+  <a href="https://github.com/INSTINCT9413/KeyBit-ID/KeyBit-ID-Images/key_125px.png">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
