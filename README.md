@@ -18,6 +18,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -25,7 +26,9 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 <a href="https://twitter.com/intent/follow?screen_name=INSTINCTxTV">
-<img src="https://img.shields.io/twitter/follow/INSTINCTxTV?style=social&logo=twitter"alt="follow on Twitter"></a>
+        <img src="https://img.shields.io/twitter/follow/INSTINCTxTV?style=social&logo=twitter"
+            alt="follow on Twitter"></a>
+
 
 <!-- PROJECT LOGO -->
 <br />
