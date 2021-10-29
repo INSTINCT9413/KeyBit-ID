@@ -15,6 +15,7 @@
 //
 #endregion
 using KeyBit_ID.Classes;
+using KeyBit_ID.Interfaces;
 using KeyBit_ID.Properties;
 using MaterialSkin.Controls;
 using System;
@@ -33,8 +34,9 @@ namespace KeyBit_ID.Forms
         // so file names would appear as Account(motherboard serial number)
         readonly string AccountPath = Application.StartupPath + @"\data\accounts\Account" + UserIDEncrypt.Key;
         readonly string imageSafePath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + @"\Dominion_Studios_Ltd\KeyBit_ID.exe_Url_4tc1szh3vhavsl0tvvldeen1eevck0dz\" + UserIDEncrypt.Key;
-        readonly UserDelete UD = new UserDelete();
-        readonly UserBackup UB = new UserBackup();
+        // implement the interface object
+        readonly IAccountOperations UD = new UserDelete();
+        readonly IAccountOperations UB = new UserBackup();
 
         public UserAccount()
         {
@@ -178,7 +180,8 @@ namespace KeyBit_ID.Forms
             // if click YES
             if (message == DialogResult.Yes)
             {
-
+                // call GetAccountInfo()
+                UB.GetAccountInfo();
                 UD.AccountDelete();
             }
             // else if click NO
@@ -193,7 +196,9 @@ namespace KeyBit_ID.Forms
             
                 if (!File.Exists(Application.StartupPath + @"\backup" + UserIDEncrypt.Key + ".zip"))
                 {
-                    UB.AccountBackup();
+                // call GetAccountInfo()
+                UB.GetAccountInfo();
+                UB.AccountBackup();
                 }
         }
 
@@ -203,6 +208,8 @@ namespace KeyBit_ID.Forms
             {
                 if (!File.Exists(Application.StartupPath + @"\backup" + UserIDEncrypt.Key + ".zip"))
                 {
+                    // call GetAccountInfo()
+                    UB.GetAccountInfo();
                     UB.AccountRestore();
                 }
             }

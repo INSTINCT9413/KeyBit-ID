@@ -45,8 +45,7 @@ namespace KeyBit_ID.Classes
         // Method to backup account
         public void AccountBackup()
         {
-            // call GetAccountInfo()
-            GetAccountInfo();
+            
             // try block
             try
             {
@@ -156,7 +155,12 @@ namespace KeyBit_ID.Classes
             {
                 MaterialMessageBox.Show("An error has occured\n" + e.Message, "Error: Unknown Exception", MessageBoxButtons.OK, MessageBoxIcon.Error, false);
             }
+            
+        }
 
+        void IAccountOperations.AccountDelete()
+        {
+            throw new NotImplementedException();
         }
     }
 }

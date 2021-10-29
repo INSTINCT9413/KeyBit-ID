@@ -23,6 +23,8 @@ namespace KeyBit_ID.Interfaces
         string dataLocation { get; set; }
         // GetAccountInfo
         void GetAccountInfo();
-
+        void AccountBackup();
+        void AccountRestore();
+        void AccountDelete();
     }
 }

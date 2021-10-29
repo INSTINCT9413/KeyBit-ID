@@ -172,5 +172,13 @@ namespace KeyBit_ID.Classes
                 MaterialMessageBox.Show("We aborted deleting your account!", "Deletion Aborted Successful", MessageBoxButtons.OK, MessageBoxIcon.None, false);
             }
         }
+        void IAccountOperations.AccountBackup()
+        {
+            throw new NotImplementedException();
+        }
+        void IAccountOperations.AccountRestore()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
