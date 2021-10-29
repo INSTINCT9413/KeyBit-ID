@@ -40,14 +40,14 @@
 <h3 align="center">KeyBit ID - Password Manager</h3>
 
   <p align="center">
-    KeyBit ID is a password managment and utility program
+    KeyBit ID is a password managment and utility program.
     <br />
     <!--<a href="https://github.com/INSTINCT9413/KeyBit-ID"><strong>Explore the docs »</strong></a>-->
     <br />
     <br />
-    <!--<a href="https://github.com/INSTINCT9413/KeyBit-ID">View Demo</a>-->
-    ·
-    <a href="https://github.com/INSTINCT9413/KeyBit-ID/issues/new?title=Your%20Bug%20Title&body=Describe%20your%20bug%20with%20any%20detials%20to%20help%20us%20resolve%20the%20issue&labels=Bug">Report Bug</a>
+    <!--<a href="https://github.com/INSTINCT9413/KeyBit-ID">View Demo</a>
+    ·-->
+    <a href="https://github.com/INSTINCT9413/KeyBit-ID/issues/new?title=Your%20Bug%20Title&body=Describe%20your%20bug%20with%20any%20details%20to%20help%20us%20resolve%20the%20issue&labels=Bug">Report Bug</a>
     ·
     <a href="https://github.com/INSTINCT9413/KeyBit-ID/issues/new?title=Your%20Cool%20Idea&body=Describe%20your%20feature%20&labels=Feature%20Request">Request Feature</a>
   </p>
@@ -74,7 +74,6 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -88,7 +87,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-MORE DETIALS TO BE FILLED LATER: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+KeyBit ID is a password managment software that allows a user to save sensitive detials such as website passowrds, bank details, credit cards, and other data. KeyBit ID also is a utility program that currently offers basic information about the user system.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -96,14 +95,12 @@ MORE DETIALS TO BE FILLED LATER: `github_username`, `repo_name`, `twitter_handle
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/net48)
+* [Windows Form Application (C#)](https://docs.microsoft.com/en-us/visualstudio/ide/create-csharp-winform-visual-studio?view=vs-2019)
+* [Microsoft WebView.2](https://docs.microsoft.com/en-us/microsoft-edge/webview2/)
+* [MaterialSkin](https://www.nuget.org/packages/MaterialSkin.2/)
+* [DevExpress](https://www.devexpress.com/)
+* [Access Database Engine](https://www.microsoft.com/en-us/download/details.aspx?id=13255)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -112,32 +109,35 @@ MORE DETIALS TO BE FILLED LATER: `github_username`, `repo_name`, `twitter_handle
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+If you're interested in modifying this project, a few things you need to setup before proceeding.
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* .NET Framework 4.8 (Preferred)
   ```sh
-  npm install npm@latest -g
+  https://dotnet.microsoft.com/download/dotnet-framework/net48
+  ```
+* Access Database Engine
+  ```sh
+  https://www.microsoft.com/en-us/download/details.aspx?id=13255
+  ```
+* Other
+  ```sh
+  DevExpress is included you can still modify the project DO NOT CLEAN SOLUTION or you will lose the required files
+  MaterialSkin is included or you can get it with nuget
+  Microsoft WebView.2 is a nuget package that should recompile when you build the solution
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/INSTINCT9413/KeyBit-ID.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+Before proceeding please follow these steps
+
+1. Download the project (once downloaded continue)
+2. Extract the folder to preferred location
+3. Load the project in Visual Studio and Rebuild Solution
+4. Go to `\KeyBit ID\bin\debug\` and create a backup of the `KeyStore.accdb` file and name it as `KSaccdb.bak`
+5. You should be good to go to start modifying the project (Remember to never clean or you will lose the DevExpress .dll's)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -146,9 +146,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Modify project as needed according to the license. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -157,39 +155,18 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
+Roadmap and upcoming features coming soon
 
 See the [open issues](https://github.com/INSTINCT9413/KeyBit-ID/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. 
+See `LICENSE.txt` for more information and other license and disclaimer information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -198,7 +175,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Jacob Brookhouse - [@INSTINCTxTV](https://twitter.com/INSTINCTxTV) - [Horizon](https://www.horizonsocial.media/INSTINCT)
 
 Project Link: [https://github.com/INSTINCT9413/KeyBit-ID](https://github.com/INSTINCT9413/KeyBit-ID)
 
@@ -209,9 +186,7 @@ Project Link: [https://github.com/INSTINCT9413/KeyBit-ID](https://github.com/INS
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [NA]()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
