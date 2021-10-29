@@ -185,7 +185,7 @@ Project Link: [https://github.com/INSTINCT9413/KeyBit-ID](https://github.com/INS
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [NA]()
+* [NA](#)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
