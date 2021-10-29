@@ -47,9 +47,9 @@
     <br />
     <!--<a href="https://github.com/INSTINCT9413/KeyBit-ID">View Demo</a>-->
     ·
-    <a href="https://github.com/INSTINCT9413/KeyBit-ID/issues/new?title=Your%20Bug%20Title&body=Describe%20your%20bug&labels=Bug">Report Bug</a>
+    <a href="https://github.com/INSTINCT9413/KeyBit-ID/issues/new?title=Your%20Bug%20Title&body=Describe%20your%20bug%20with%20any%20detials%20to%20help%20us%20resolve%20the%20issue&labels=Bug">Report Bug</a>
     ·
-    <a href="https://github.com/INSTINCT9413/KeyBit-ID/issues">Request Feature</a>
+    <a href="https://github.com/INSTINCT9413/KeyBit-ID/issues/new?title=Your%20Cool%20Idea&body=Describe%20your%20feature%20&labels=Feature%20Request">Request Feature</a>
   </p>
 </div>
 
