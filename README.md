@@ -123,10 +123,9 @@ This is an example of how to list things you need to use the software and how to
   https://www.microsoft.com/en-us/download/details.aspx?id=13255
   ```
 * Other
-</br>
-  DevExpress is included you can still modify the project DO NOT CLEAN SOLUTION or you will lose the required files
-  MaterialSkin is included or you can get it with nuget
-  Microsoft WebView.2 is a nuget package that should recompile when you build the solution
+  <p>DevExpress is included you can still modify the project DO NOT CLEAN SOLUTION or you will lose the required files</p>
+  <p>MaterialSkin is included or you can get it with nuget</p>
+  <p>Microsoft WebView.2 is a nuget package that should recompile when you build the solution</p>
 
 
 ### Installation
