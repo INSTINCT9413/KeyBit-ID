@@ -136,7 +136,7 @@ Before proceeding please follow these steps
 2. Extract the folder to preferred location
 3. Load the project in Visual Studio and Rebuild Solution
 4. Go to `\KeyBit ID\bin\debug\` and create a backup of the `KeyStore.accdb` file and name it as `KSaccdb.bak`
-5. You should be good to go to start modifying the project (Remember to never clean or you will lose the DevExpress .dll's)
+5. You should be good to go to start modifying the project (Remember to never clean solution or you will lose the DevExpress .dll's)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -165,7 +165,7 @@ See the [open issues](https://github.com/INSTINCT9413/KeyBit-ID/issues) for a fu
 ## License
 
 Distributed under the MIT License. 
-See `LICENSE.txt` for more information and other license and disclaimer information.
+See <a href="https://github.com/INSTINCT9413/KeyBit-ID/blob/master/LICENSE.txt"> `LICENSE.txt` </a>for more information and other license and disclaimer information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
