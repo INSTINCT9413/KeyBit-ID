@@ -10,7 +10,7 @@
 #endregion
 #region About this file
 //
-// This class contains the logic to get and set the UserID account variables throught the application
+// This class contains the logic to get and set the UserID account variables throughout the application
 //
 #endregion
 namespace KeyBit_ID.Classes
