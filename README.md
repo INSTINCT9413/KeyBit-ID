@@ -42,12 +42,12 @@
   <p align="center">
     KeyBit ID is a password managment and utility program
     <br />
-    <a href="https://github.com/INSTINCT9413/KeyBit-ID"><strong>Explore the docs »</strong></a>
+    <!--<a href="https://github.com/INSTINCT9413/KeyBit-ID"><strong>Explore the docs »</strong></a>-->
     <br />
     <br />
-    <a href="https://github.com/INSTINCT9413/KeyBit-ID">View Demo</a>
+    <!--<a href="https://github.com/INSTINCT9413/KeyBit-ID">View Demo</a>-->
     ·
-    <a href="https://github.com/INSTINCT9413/KeyBit-ID/issues">Report Bug</a>
+    <a href="https://github.com/INSTINCT9413/KeyBit-ID/issues/new?title=Your%20Bug%20Title&body=Describe$20your%20bug&label=Bug">Report Bug</a>
     ·
     <a href="https://github.com/INSTINCT9413/KeyBit-ID/issues">Request Feature</a>
   </p>
