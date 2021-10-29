@@ -87,7 +87,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-KeyBit ID is a password managment software that allows a user to save sensitive detials such as website passowrds, bank details, credit cards, and other data. KeyBit ID also is a utility program that currently offers basic information about the user system.
+KeyBit ID is a password managment software that allows a user to save sensitive details such as website passowrds, bank details, credit cards, and other data. KeyBit ID also is a utility program that currently offers basic information about the user system.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -123,11 +123,10 @@ This is an example of how to list things you need to use the software and how to
   https://www.microsoft.com/en-us/download/details.aspx?id=13255
   ```
 * Other
-  ```sh
   DevExpress is included you can still modify the project DO NOT CLEAN SOLUTION or you will lose the required files
   MaterialSkin is included or you can get it with nuget
   Microsoft WebView.2 is a nuget package that should recompile when you build the solution
-  ```
+
 
 ### Installation
 
