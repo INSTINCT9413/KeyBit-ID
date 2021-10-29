@@ -174,7 +174,7 @@ See <a href="https://github.com/INSTINCT9413/KeyBit-ID/blob/master/LICENSE.txt">
 <!-- CONTACT -->
 ## Contact
 
-Jacob Brookhouse - [@INSTINCTxTV](https://twitter.com/INSTINCTxTV) - [Horizon](https://www.horizonsocial.media/INSTINCT)
+Jacob Brookhouse - [Twitter](https://twitter.com/INSTINCTxTV) - [Horizon](https://www.horizonsocial.media/INSTINCT)
 
 Project Link: [https://github.com/INSTINCT9413/KeyBit-ID](https://github.com/INSTINCT9413/KeyBit-ID)
 
