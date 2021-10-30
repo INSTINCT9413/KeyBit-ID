@@ -165,7 +165,7 @@ See the [open issues](https://github.com/INSTINCT9413/KeyBit-ID/issues) for a fu
 ## License
 
 Distributed under the MIT License. 
-See <a href="https://github.com/INSTINCT9413/KeyBit-ID/blob/master/Full%20LICENSE.txt"> `LICENSE.txt` </a>for more information and other license and disclaimer information.
+See <a href="https://github.com/INSTINCT9413/KeyBit-ID/blob/master/Full%20LICENSE.txt"> `Full LICENSE.txt` </a>for more information and other license and disclaimer information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
