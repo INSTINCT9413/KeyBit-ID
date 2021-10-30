@@ -202,7 +202,7 @@ Project Link: [https://github.com/INSTINCT9413/KeyBit-ID](https://github.com/INS
 [issues-shield]: https://img.shields.io/github/issues/INSTINCT9413/KeyBit-ID
 [issues-url]: https://github.com/INSTINCT9413/KeyBit-ID/issues
 [license-shield]: https://img.shields.io/github/license/INSTINCT9413/KeyBit-ID
-[license-url]: https://github.com/INSTINCT9413/KeyBit-ID/blob/master/LICENSE.txt
+[license-url]: https://github.com/INSTINCT9413/KeyBit-ID/blob/master/License.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg
 [linkedin-url]: https://www.linkedin.com/in/jacobbrookhouse/
 [product-screenshot]: images/screenshot.png
