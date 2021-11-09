@@ -111,6 +111,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\QueryOperations.cs" />
     <Compile Include="Classes\UserBackup.cs" />
     <Compile Include="Classes\UserDelete.cs" />
     <Compile Include="Classes\UserID.cs" />
@@ -128,6 +129,12 @@
     </Compile>
     <Compile Include="Forms\Legal.Designer.cs">
       <DependentUpon>Legal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\queryResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\queryResult.Designer.cs">
+      <DependentUpon>queryResult.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\IAccountOperations.cs" />
     <Compile Include="KeyStoreDataSet.Designer.cs">
@@ -194,6 +201,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\queryResult.resx">
+      <DependentUpon>queryResult.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\TESTFORM.resx">
       <DependentUpon>TESTFORM.cs</DependentUpon>

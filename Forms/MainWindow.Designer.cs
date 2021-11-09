@@ -31,56 +31,56 @@ namespace KeyBit_ID.Forms
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
             "Horizon",
             "test@gmail.com",
             "test",
             "test123",
             "http://example.com",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem(new string[] {
             "Horizon",
             "123@mail.com",
             "user4",
             "pass3432",
             "http://google.com",
             "this is another note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem(new string[] {
             "Fifth Third Bank",
             "94395921",
             "74367548298348777",
             "john117",
             "password123",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem(new string[] {
             "Chase Bank",
             "55194010",
             "3811105598134490",
             "jane004",
             "password94",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem29 = new System.Windows.Forms.ListViewItem(new string[] {
             "Jacob W Brookhouse",
             "Debit Card",
             "9090909090909090",
             "000",
             "01 / 22",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem30 = new System.Windows.Forms.ListViewItem(new string[] {
             "John A Doe",
             "Pre-Paid",
             "9090909090909090",
             "000",
             "09 / 23",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem31 = new System.Windows.Forms.ListViewItem(new string[] {
             "Jane L Doe",
             "Credit Card",
             "9090909090909090",
             "000",
             "09 / 24",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem32 = new System.Windows.Forms.ListViewItem(new string[] {
             "Instagram Keys",
             "1k6-g5G",
             "3H6-g99",
@@ -189,6 +189,12 @@ namespace KeyBit_ID.Forms
             this.btnMaster = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel11 = new MaterialSkin.Controls.MaterialLabel();
             this.tbMaster = new MaterialSkin.Controls.MaterialTextBox();
+            this.materialCard15 = new MaterialSkin.Controls.MaterialCard();
+            this.totalCounts = new System.Windows.Forms.Label();
+            this.otherTotal = new System.Windows.Forms.Label();
+            this.cardTotal = new System.Windows.Forms.Label();
+            this.bankTotal = new System.Windows.Forms.Label();
+            this.websiteTotal = new System.Windows.Forms.Label();
             this.materialCard14 = new MaterialSkin.Controls.MaterialCard();
             this.materialLabel20 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel21 = new MaterialSkin.Controls.MaterialLabel();
@@ -349,6 +355,7 @@ namespace KeyBit_ID.Forms
             this.cardsTableAdapter = new KeyBit_ID.KeyStoreDataSetTableAdapters.CardsTableAdapter();
             this.otherTableAdapter = new KeyBit_ID.KeyStoreDataSetTableAdapters.OtherTableAdapter();
             this.vaultCheck = new System.Windows.Forms.Timer(this.components);
+            this.materialButton9 = new MaterialSkin.Controls.MaterialButton();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.keyStoreDataSetBindingSource)).BeginInit();
@@ -375,6 +382,7 @@ namespace KeyBit_ID.Forms
             this.panel1.SuspendLayout();
             this.materialCard10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.materialCard15.SuspendLayout();
             this.materialCard14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.circularGauge3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageIndicatorComponent4)).BeginInit();
@@ -1240,6 +1248,7 @@ namespace KeyBit_ID.Forms
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.Controls.Add(this.panel1);
+            this.panel2.Controls.Add(this.materialCard15);
             this.panel2.Controls.Add(this.materialCard14);
             this.panel2.Controls.Add(this.materialCard13);
             this.panel2.Controls.Add(this.materialCard12);
@@ -1252,7 +1261,7 @@ namespace KeyBit_ID.Forms
             // panel1
             // 
             this.panel1.Controls.Add(this.materialCard10);
-            this.panel1.Location = new System.Drawing.Point(10, 24);
+            this.panel1.Location = new System.Drawing.Point(10, 31);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(794, 389);
             this.panel1.TabIndex = 6;
@@ -1348,6 +1357,71 @@ namespace KeyBit_ID.Forms
             this.tbMaster.TrailingIcon = null;
             this.tbMaster.UseTallSize = false;
             // 
+            // materialCard15
+            // 
+            this.materialCard15.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.materialCard15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard15.Controls.Add(this.totalCounts);
+            this.materialCard15.Controls.Add(this.otherTotal);
+            this.materialCard15.Controls.Add(this.cardTotal);
+            this.materialCard15.Controls.Add(this.bankTotal);
+            this.materialCard15.Controls.Add(this.websiteTotal);
+            this.materialCard15.Depth = 0;
+            this.materialCard15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard15.Location = new System.Drawing.Point(289, 222);
+            this.materialCard15.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard15.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard15.Name = "materialCard15";
+            this.materialCard15.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard15.Size = new System.Drawing.Size(236, 217);
+            this.materialCard15.TabIndex = 10;
+            this.materialCard15.Visible = false;
+            // 
+            // totalCounts
+            // 
+            this.totalCounts.AutoSize = true;
+            this.totalCounts.Location = new System.Drawing.Point(29, 153);
+            this.totalCounts.Name = "totalCounts";
+            this.totalCounts.Size = new System.Drawing.Size(35, 13);
+            this.totalCounts.TabIndex = 4;
+            this.totalCounts.Text = "label1";
+            // 
+            // otherTotal
+            // 
+            this.otherTotal.AutoSize = true;
+            this.otherTotal.Location = new System.Drawing.Point(29, 125);
+            this.otherTotal.Name = "otherTotal";
+            this.otherTotal.Size = new System.Drawing.Size(35, 13);
+            this.otherTotal.TabIndex = 3;
+            this.otherTotal.Text = "label1";
+            // 
+            // cardTotal
+            // 
+            this.cardTotal.AutoSize = true;
+            this.cardTotal.Location = new System.Drawing.Point(29, 97);
+            this.cardTotal.Name = "cardTotal";
+            this.cardTotal.Size = new System.Drawing.Size(35, 13);
+            this.cardTotal.TabIndex = 2;
+            this.cardTotal.Text = "label1";
+            // 
+            // bankTotal
+            // 
+            this.bankTotal.AutoSize = true;
+            this.bankTotal.Location = new System.Drawing.Point(29, 69);
+            this.bankTotal.Name = "bankTotal";
+            this.bankTotal.Size = new System.Drawing.Size(35, 13);
+            this.bankTotal.TabIndex = 1;
+            this.bankTotal.Text = "label1";
+            // 
+            // websiteTotal
+            // 
+            this.websiteTotal.AutoSize = true;
+            this.websiteTotal.Location = new System.Drawing.Point(29, 41);
+            this.websiteTotal.Name = "websiteTotal";
+            this.websiteTotal.Size = new System.Drawing.Size(35, 13);
+            this.websiteTotal.TabIndex = 0;
+            this.websiteTotal.Text = "label1";
+            // 
             // materialCard14
             // 
             this.materialCard14.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -1357,7 +1431,7 @@ namespace KeyBit_ID.Forms
             this.materialCard14.Controls.Add(this.gaugeControl4);
             this.materialCard14.Depth = 0;
             this.materialCard14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard14.Location = new System.Drawing.Point(289, 231);
+            this.materialCard14.Location = new System.Drawing.Point(25, 222);
             this.materialCard14.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard14.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard14.Name = "materialCard14";
@@ -2022,9 +2096,11 @@ namespace KeyBit_ID.Forms
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.tabPage2.Controls.Add(this.materialDrawer2);
+            this.tabPage2.Controls.Add(this.materialButton9);
+            this.tabPage2.Controls.Add(this.materialButton8);
             this.tabPage2.Controls.Add(this.materialTabControl3);
             this.tabPage2.Controls.Add(this.materialTabControl2);
+            this.tabPage2.Controls.Add(this.materialDrawer2);
             this.tabPage2.Controls.Add(this.materialTabSelector1);
             this.tabPage2.ImageKey = "safe_32px.png";
             this.tabPage2.Location = new System.Drawing.Point(4, 31);
@@ -2421,8 +2497,8 @@ namespace KeyBit_ID.Forms
             this.materialListView1.FullRowSelect = true;
             this.materialListView1.HideSelection = false;
             this.materialListView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2});
+            listViewItem25,
+            listViewItem26});
             this.materialListView1.LabelEdit = true;
             this.materialListView1.Location = new System.Drawing.Point(3, 3);
             this.materialListView1.MinimumSize = new System.Drawing.Size(200, 100);
@@ -2494,8 +2570,8 @@ namespace KeyBit_ID.Forms
             this.materialListView2.FullRowSelect = true;
             this.materialListView2.HideSelection = false;
             this.materialListView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem3,
-            listViewItem4});
+            listViewItem27,
+            listViewItem28});
             this.materialListView2.LabelEdit = true;
             this.materialListView2.Location = new System.Drawing.Point(3, 3);
             this.materialListView2.MinimumSize = new System.Drawing.Size(200, 100);
@@ -2566,9 +2642,9 @@ namespace KeyBit_ID.Forms
             this.materialListView3.FullRowSelect = true;
             this.materialListView3.HideSelection = false;
             this.materialListView3.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem5,
-            listViewItem6,
-            listViewItem7});
+            listViewItem29,
+            listViewItem30,
+            listViewItem31});
             this.materialListView3.LabelEdit = true;
             this.materialListView3.Location = new System.Drawing.Point(0, 0);
             this.materialListView3.MinimumSize = new System.Drawing.Size(200, 100);
@@ -2638,7 +2714,7 @@ namespace KeyBit_ID.Forms
             this.materialListView4.FullRowSelect = true;
             this.materialListView4.HideSelection = false;
             this.materialListView4.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem8});
+            listViewItem32});
             this.materialListView4.LabelEdit = true;
             this.materialListView4.Location = new System.Drawing.Point(0, 0);
             this.materialListView4.MinimumSize = new System.Drawing.Size(200, 100);
@@ -3175,21 +3251,21 @@ namespace KeyBit_ID.Forms
             // 
             // materialButton8
             // 
-            this.materialButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.materialButton8.AutoSize = false;
             this.materialButton8.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.materialButton8.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             this.materialButton8.Depth = 0;
             this.materialButton8.HighEmphasis = true;
             this.materialButton8.Icon = null;
-            this.materialButton8.Location = new System.Drawing.Point(471, 0);
+            this.materialButton8.Location = new System.Drawing.Point(6, 384);
             this.materialButton8.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton8.Name = "materialButton8";
-            this.materialButton8.Size = new System.Drawing.Size(151, 48);
+            this.materialButton8.Size = new System.Drawing.Size(137, 48);
             this.materialButton8.TabIndex = 5;
             this.materialButton8.Text = "Save Vault";
-            this.materialButton8.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.materialButton8.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
             this.materialButton8.UseAccentColor = true;
             this.materialButton8.UseVisualStyleBackColor = true;
             this.materialButton8.Visible = false;
@@ -3212,13 +3288,33 @@ namespace KeyBit_ID.Forms
             this.vaultCheck.Enabled = true;
             this.vaultCheck.Tick += new System.EventHandler(this.VaultCheck_Tick);
             // 
+            // materialButton9
+            // 
+            this.materialButton9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.materialButton9.AutoSize = false;
+            this.materialButton9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton9.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton9.Depth = 0;
+            this.materialButton9.HighEmphasis = true;
+            this.materialButton9.Icon = null;
+            this.materialButton9.Location = new System.Drawing.Point(7, 334);
+            this.materialButton9.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton9.Name = "materialButton9";
+            this.materialButton9.Size = new System.Drawing.Size(136, 48);
+            this.materialButton9.TabIndex = 7;
+            this.materialButton9.Text = "Query All";
+            this.materialButton9.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+            this.materialButton9.UseAccentColor = true;
+            this.materialButton9.UseVisualStyleBackColor = true;
+            this.materialButton9.Click += new System.EventHandler(this.materialButton9_Click_1);
+            // 
             // MainWindow
             // 
             this.AcceptButton = this.btnMaster;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(859, 547);
-            this.Controls.Add(this.materialButton8);
             this.Controls.Add(this.materialButton4);
             this.Controls.Add(this.materialDrawer1);
             this.Controls.Add(this.materialTabControl1);
@@ -3259,6 +3355,8 @@ namespace KeyBit_ID.Forms
             this.materialCard10.ResumeLayout(false);
             this.materialCard10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.materialCard15.ResumeLayout(false);
+            this.materialCard15.PerformLayout();
             this.materialCard14.ResumeLayout(false);
             this.materialCard14.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.circularGauge3)).EndInit();
@@ -3598,5 +3696,12 @@ namespace KeyBit_ID.Forms
         private DevExpress.XtraGauges.Win.Base.LabelComponent labelComponent4;
         private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleRangeBarComponent arcScaleRangeBarComponent4;
         private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent arcScaleComponent4;
+        private MaterialSkin.Controls.MaterialCard materialCard15;
+        private System.Windows.Forms.Label websiteTotal;
+        private System.Windows.Forms.Label totalCounts;
+        private System.Windows.Forms.Label otherTotal;
+        private System.Windows.Forms.Label cardTotal;
+        private System.Windows.Forms.Label bankTotal;
+        private MaterialSkin.Controls.MaterialButton materialButton9;
     }
 }

@@ -22,6 +22,7 @@ using KeyBit_ID.Structs;
 using MaterialSkin;
 using MaterialSkin.Controls;
 using System;
+using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
@@ -34,6 +35,8 @@ namespace KeyBit_ID.Forms
     {
         // instanatiate a new Wait()
         readonly Wait thread = new Wait();
+
+        QueryOperations QO = new QueryOperations();
 
         // create a string and set it to the updater path
         // this is a program that is created in Advanced Installer program (NOT INCLUDED)
@@ -312,7 +315,7 @@ namespace KeyBit_ID.Forms
                 // show the tabcontrol
                 materialTabControl3.Visible = true;
                 // change selected tabe page
-                materialTabControl1.SelectedTab = tabPage2;
+                // materialTabControl1.SelectedTab = tabPage2;
                 panel2.Visible = true;
                 // make the unlock controls invisible
                 panel1.Visible = false;
@@ -331,11 +334,27 @@ namespace KeyBit_ID.Forms
             materialCard13.Visible = true;
             materialCard14.Visible = true;
 
+            materialCard15.Visible = true;
+
 
             Thread dashThread = new Thread(new ThreadStart(UnlockDashThread));
             dashThread.Start();
 
-            
+            DataTable websites = this.keyStoreDataSet.Tables["Websites"];
+            QO.queryWebCount(this.keyStoreDataSet, websites);
+            DataTable banks = this.keyStoreDataSet.Tables["Banks"];
+            QO.queryBankCount(this.keyStoreDataSet, banks);
+            DataTable cards = this.keyStoreDataSet.Tables["Cards"];
+            QO.queryCardCount(this.keyStoreDataSet, cards);
+            DataTable other = this.keyStoreDataSet.Tables["Other"];
+            QO.queryOtherCount(this.keyStoreDataSet, other);
+
+            websiteTotal.Text = "Website Records: " + QO.webCount;
+            bankTotal.Text = "Bank Records: " + QO.bankCount;
+            cardTotal.Text = "Card Records: " + QO.cardCount;
+            otherTotal.Text = "Other Records: " + QO.otherCount;
+            totalCounts.Text = "Total Records in vault: " + QO.TotalCount();
+
         }
         private void UnlockDashThread()
         {
@@ -447,6 +466,34 @@ namespace KeyBit_ID.Forms
             return string.Format("{0:n" + decimalPlaces + "} {1}",
                 adjustedSize,
                 SizeSuffixes[size]);
+        }
+
+        private void materialButton9_Click_1(object sender, EventArgs e)
+        {
+            // create a new query operations class
+            QueryOperations qo = new QueryOperations();
+
+            // if a specific tab is selected query that tabs data
+            if (materialTabControl3.SelectedTab == tabPage9)
+            {
+                qo.queryWeb();
+            } 
+            else if (materialTabControl3.SelectedTab == tabPage10)
+            {
+                qo.queryBank();
+            }
+            else if (materialTabControl3.SelectedTab == tabPage11)
+            {
+                qo.queryCard();
+            }
+            else if (materialTabControl3.SelectedTab == tabPage12)
+            {
+                qo.queryOther();
+            }
+            else
+            {
+                
+            }
         }
     }
 }
