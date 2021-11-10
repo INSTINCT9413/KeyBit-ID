@@ -265,6 +265,21 @@ namespace KeyBit_ID.Forms
                 cardsTableAdapter.Update(keyStoreDataSet.Cards);
                 otherTableAdapter.Update(keyStoreDataSet.Other);
             }
+            // call all this to make sure that all counts are recalculated
+            DataTable websites = this.keyStoreDataSet.Tables["Websites"];
+            QO.queryWebCount(this.keyStoreDataSet, websites);
+            DataTable banks = this.keyStoreDataSet.Tables["Banks"];
+            QO.queryBankCount(this.keyStoreDataSet, banks);
+            DataTable cards = this.keyStoreDataSet.Tables["Cards"];
+            QO.queryCardCount(this.keyStoreDataSet, cards);
+            DataTable other = this.keyStoreDataSet.Tables["Other"];
+            QO.queryOtherCount(this.keyStoreDataSet, other);
+            // then assign values to the UI
+            websiteTotal.Text = "Website Records: " + QO.webCount;
+            bankTotal.Text = "Bank Records: " + QO.bankCount;
+            cardTotal.Text = "Card Records: " + QO.cardCount;
+            otherTotal.Text = "Other Records: " + QO.otherCount;
+            totalCounts.Text = "Total Records in vault: " + QO.TotalCount();
         }
 
         private void MaterialButton9_Click(object sender, EventArgs e)
@@ -385,7 +400,7 @@ namespace KeyBit_ID.Forms
             PerformanceCounter pcNET = new PerformanceCounter("Network Interface", "Bytes Total/sec", nicname);
             PerformanceCounter pcHDD = new PerformanceCounter("LogicalDisk", "Disk Write Bytes/sec", "_Total");
 
-           
+
             // while true (always run)
             while (true)
             {
@@ -477,7 +492,7 @@ namespace KeyBit_ID.Forms
             if (materialTabControl3.SelectedTab == tabPage9)
             {
                 qo.queryWeb();
-            } 
+            }
             else if (materialTabControl3.SelectedTab == tabPage10)
             {
                 qo.queryBank();
@@ -492,7 +507,7 @@ namespace KeyBit_ID.Forms
             }
             else
             {
-                
+
             }
         }
     }

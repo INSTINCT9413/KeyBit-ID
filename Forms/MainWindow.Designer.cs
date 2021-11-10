@@ -31,56 +31,56 @@ namespace KeyBit_ID.Forms
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
-            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "Horizon",
             "test@gmail.com",
             "test",
             "test123",
             "http://example.com",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "Horizon",
             "123@mail.com",
             "user4",
             "pass3432",
             "http://google.com",
             "this is another note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
             "Fifth Third Bank",
             "94395921",
             "74367548298348777",
             "john117",
             "password123",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "Chase Bank",
             "55194010",
             "3811105598134490",
             "jane004",
             "password94",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem29 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "Jacob W Brookhouse",
             "Debit Card",
             "9090909090909090",
             "000",
             "01 / 22",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem30 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "John A Doe",
             "Pre-Paid",
             "9090909090909090",
             "000",
             "09 / 23",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem31 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
             "Jane L Doe",
             "Credit Card",
             "9090909090909090",
             "000",
             "09 / 24",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem32 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
             "Instagram Keys",
             "1k6-g5G",
             "3H6-g99",
@@ -244,7 +244,8 @@ namespace KeyBit_ID.Forms
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.materialDrawer2 = new MaterialSkin.Controls.MaterialDrawer();
+            this.materialButton9 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton8 = new MaterialSkin.Controls.MaterialButton();
             this.materialTabControl3 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.tabPage10 = new System.Windows.Forms.TabPage();
@@ -313,6 +314,7 @@ namespace KeyBit_ID.Forms
             this.oSS3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.oSS4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.oNotes = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.materialDrawer2 = new MaterialSkin.Controls.MaterialDrawer();
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.materialCard7 = new MaterialSkin.Controls.MaterialCard();
@@ -350,12 +352,10 @@ namespace KeyBit_ID.Forms
             this.tab3 = new DevExpress.XtraVerticalGrid.Tab();
             this.dataSet1 = new System.Data.DataSet();
             this.websitesTableAdapter = new KeyBit_ID.KeyStoreDataSetTableAdapters.WebsitesTableAdapter();
-            this.materialButton8 = new MaterialSkin.Controls.MaterialButton();
             this.banksTableAdapter = new KeyBit_ID.KeyStoreDataSetTableAdapters.BanksTableAdapter();
             this.cardsTableAdapter = new KeyBit_ID.KeyStoreDataSetTableAdapters.CardsTableAdapter();
             this.otherTableAdapter = new KeyBit_ID.KeyStoreDataSetTableAdapters.OtherTableAdapter();
             this.vaultCheck = new System.Windows.Forms.Timer(this.components);
-            this.materialButton9 = new MaterialSkin.Controls.MaterialButton();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.keyStoreDataSetBindingSource)).BeginInit();
@@ -2110,26 +2110,48 @@ namespace KeyBit_ID.Forms
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "My Vault";
             // 
-            // materialDrawer2
+            // materialButton9
             // 
-            this.materialDrawer2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.materialDrawer2.AutoHide = false;
-            this.materialDrawer2.AutoShow = false;
-            this.materialDrawer2.BackgroundWithAccent = false;
-            this.materialDrawer2.BaseTabControl = this.materialTabControl3;
-            this.materialDrawer2.Depth = 0;
-            this.materialDrawer2.HighlightWithAccent = true;
-            this.materialDrawer2.IndicatorWidth = 0;
-            this.materialDrawer2.IsOpen = true;
-            this.materialDrawer2.Location = new System.Drawing.Point(0, 0);
-            this.materialDrawer2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialDrawer2.Name = "materialDrawer2";
-            this.materialDrawer2.ShowIconsWhenHidden = false;
-            this.materialDrawer2.Size = new System.Drawing.Size(145, 449);
-            this.materialDrawer2.TabIndex = 5;
-            this.materialDrawer2.Text = "materialDrawer2";
-            this.materialDrawer2.UseColors = false;
+            this.materialButton9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.materialButton9.AutoSize = false;
+            this.materialButton9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton9.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton9.Depth = 0;
+            this.materialButton9.HighEmphasis = true;
+            this.materialButton9.Icon = null;
+            this.materialButton9.Location = new System.Drawing.Point(7, 334);
+            this.materialButton9.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton9.Name = "materialButton9";
+            this.materialButton9.Size = new System.Drawing.Size(136, 48);
+            this.materialButton9.TabIndex = 7;
+            this.materialButton9.Text = "Query All";
+            this.materialButton9.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+            this.materialButton9.UseAccentColor = true;
+            this.materialButton9.UseVisualStyleBackColor = true;
+            this.materialButton9.Click += new System.EventHandler(this.materialButton9_Click_1);
+            // 
+            // materialButton8
+            // 
+            this.materialButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.materialButton8.AutoSize = false;
+            this.materialButton8.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton8.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton8.Depth = 0;
+            this.materialButton8.HighEmphasis = true;
+            this.materialButton8.Icon = null;
+            this.materialButton8.Location = new System.Drawing.Point(6, 384);
+            this.materialButton8.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton8.Name = "materialButton8";
+            this.materialButton8.Size = new System.Drawing.Size(137, 48);
+            this.materialButton8.TabIndex = 5;
+            this.materialButton8.Text = "Save Vault";
+            this.materialButton8.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+            this.materialButton8.UseAccentColor = true;
+            this.materialButton8.UseVisualStyleBackColor = true;
+            this.materialButton8.Visible = false;
+            this.materialButton8.Click += new System.EventHandler(this.MaterialButton8_Click);
             // 
             // materialTabControl3
             // 
@@ -2497,8 +2519,8 @@ namespace KeyBit_ID.Forms
             this.materialListView1.FullRowSelect = true;
             this.materialListView1.HideSelection = false;
             this.materialListView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem25,
-            listViewItem26});
+            listViewItem1,
+            listViewItem2});
             this.materialListView1.LabelEdit = true;
             this.materialListView1.Location = new System.Drawing.Point(3, 3);
             this.materialListView1.MinimumSize = new System.Drawing.Size(200, 100);
@@ -2570,8 +2592,8 @@ namespace KeyBit_ID.Forms
             this.materialListView2.FullRowSelect = true;
             this.materialListView2.HideSelection = false;
             this.materialListView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem27,
-            listViewItem28});
+            listViewItem3,
+            listViewItem4});
             this.materialListView2.LabelEdit = true;
             this.materialListView2.Location = new System.Drawing.Point(3, 3);
             this.materialListView2.MinimumSize = new System.Drawing.Size(200, 100);
@@ -2642,9 +2664,9 @@ namespace KeyBit_ID.Forms
             this.materialListView3.FullRowSelect = true;
             this.materialListView3.HideSelection = false;
             this.materialListView3.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem29,
-            listViewItem30,
-            listViewItem31});
+            listViewItem5,
+            listViewItem6,
+            listViewItem7});
             this.materialListView3.LabelEdit = true;
             this.materialListView3.Location = new System.Drawing.Point(0, 0);
             this.materialListView3.MinimumSize = new System.Drawing.Size(200, 100);
@@ -2714,7 +2736,7 @@ namespace KeyBit_ID.Forms
             this.materialListView4.FullRowSelect = true;
             this.materialListView4.HideSelection = false;
             this.materialListView4.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem32});
+            listViewItem8});
             this.materialListView4.LabelEdit = true;
             this.materialListView4.Location = new System.Drawing.Point(0, 0);
             this.materialListView4.MinimumSize = new System.Drawing.Size(200, 100);
@@ -2756,6 +2778,27 @@ namespace KeyBit_ID.Forms
             // 
             this.oNotes.Text = "Notes";
             this.oNotes.Width = 200;
+            // 
+            // materialDrawer2
+            // 
+            this.materialDrawer2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.materialDrawer2.AutoHide = false;
+            this.materialDrawer2.AutoShow = false;
+            this.materialDrawer2.BackgroundWithAccent = false;
+            this.materialDrawer2.BaseTabControl = this.materialTabControl3;
+            this.materialDrawer2.Depth = 0;
+            this.materialDrawer2.HighlightWithAccent = true;
+            this.materialDrawer2.IndicatorWidth = 0;
+            this.materialDrawer2.IsOpen = true;
+            this.materialDrawer2.Location = new System.Drawing.Point(0, 0);
+            this.materialDrawer2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialDrawer2.Name = "materialDrawer2";
+            this.materialDrawer2.ShowIconsWhenHidden = false;
+            this.materialDrawer2.Size = new System.Drawing.Size(145, 449);
+            this.materialDrawer2.TabIndex = 5;
+            this.materialDrawer2.Text = "materialDrawer2";
+            this.materialDrawer2.UseColors = false;
             // 
             // materialTabSelector1
             // 
@@ -3249,28 +3292,6 @@ namespace KeyBit_ID.Forms
             // 
             this.websitesTableAdapter.ClearBeforeFill = true;
             // 
-            // materialButton8
-            // 
-            this.materialButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.materialButton8.AutoSize = false;
-            this.materialButton8.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton8.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton8.Depth = 0;
-            this.materialButton8.HighEmphasis = true;
-            this.materialButton8.Icon = null;
-            this.materialButton8.Location = new System.Drawing.Point(6, 384);
-            this.materialButton8.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton8.Name = "materialButton8";
-            this.materialButton8.Size = new System.Drawing.Size(137, 48);
-            this.materialButton8.TabIndex = 5;
-            this.materialButton8.Text = "Save Vault";
-            this.materialButton8.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
-            this.materialButton8.UseAccentColor = true;
-            this.materialButton8.UseVisualStyleBackColor = true;
-            this.materialButton8.Visible = false;
-            this.materialButton8.Click += new System.EventHandler(this.MaterialButton8_Click);
-            // 
             // banksTableAdapter
             // 
             this.banksTableAdapter.ClearBeforeFill = true;
@@ -3287,27 +3308,6 @@ namespace KeyBit_ID.Forms
             // 
             this.vaultCheck.Enabled = true;
             this.vaultCheck.Tick += new System.EventHandler(this.VaultCheck_Tick);
-            // 
-            // materialButton9
-            // 
-            this.materialButton9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.materialButton9.AutoSize = false;
-            this.materialButton9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton9.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton9.Depth = 0;
-            this.materialButton9.HighEmphasis = true;
-            this.materialButton9.Icon = null;
-            this.materialButton9.Location = new System.Drawing.Point(7, 334);
-            this.materialButton9.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton9.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton9.Name = "materialButton9";
-            this.materialButton9.Size = new System.Drawing.Size(136, 48);
-            this.materialButton9.TabIndex = 7;
-            this.materialButton9.Text = "Query All";
-            this.materialButton9.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
-            this.materialButton9.UseAccentColor = true;
-            this.materialButton9.UseVisualStyleBackColor = true;
-            this.materialButton9.Click += new System.EventHandler(this.materialButton9_Click_1);
             // 
             // MainWindow
             // 

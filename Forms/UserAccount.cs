@@ -193,13 +193,13 @@ namespace KeyBit_ID.Forms
 
         private void MaterialButton2_Click(object sender, EventArgs e)
         {
-            
-                if (!File.Exists(Application.StartupPath + @"\backup" + UserIDEncrypt.Key + ".zip"))
-                {
+
+            if (!File.Exists(Application.StartupPath + @"\backup" + UserIDEncrypt.Key + ".zip"))
+            {
                 // call GetAccountInfo()
                 UB.GetAccountInfo();
                 UB.AccountBackup();
-                }
+            }
         }
 
         private void MaterialButton3_Click(object sender, EventArgs e)

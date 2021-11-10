@@ -65,7 +65,7 @@ namespace KeyBit_ID.Classes
                     if (Directory.Exists(BackupLocation))
                     {
                         // check if the backup file is there
-                        if(File.Exists(BackupLocation + key + ".zip"))
+                        if (File.Exists(BackupLocation + key + ".zip"))
                         {
                             // delete the .zip
                             File.Delete(BackupLocation + key + ".zip");
@@ -73,7 +73,7 @@ namespace KeyBit_ID.Classes
                         else
                         {
                             MaterialMessageBox.Show("KeyBit ID can not delete a backup file and folder!\n\n" +
-                                "There may not be a file present or missing account ID, manually delete the backup folder!","Access Error",MessageBoxButtons.OK,MessageBoxIcon.Error, false);
+                                "There may not be a file present or missing account ID, manually delete the backup folder!", "Access Error", MessageBoxButtons.OK, MessageBoxIcon.Error, false);
                         }
                         // delete the backup folder
                         Directory.Delete(BackupLocation);
