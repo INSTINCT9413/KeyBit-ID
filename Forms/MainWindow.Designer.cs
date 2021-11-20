@@ -31,56 +31,56 @@ namespace KeyBit_ID.Forms
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem33 = new System.Windows.Forms.ListViewItem(new string[] {
             "Horizon",
             "test@gmail.com",
             "test",
             "test123",
             "http://example.com",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem34 = new System.Windows.Forms.ListViewItem(new string[] {
             "Horizon",
             "123@mail.com",
             "user4",
             "pass3432",
             "http://google.com",
             "this is another note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem35 = new System.Windows.Forms.ListViewItem(new string[] {
             "Fifth Third Bank",
             "94395921",
             "74367548298348777",
             "john117",
             "password123",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem36 = new System.Windows.Forms.ListViewItem(new string[] {
             "Chase Bank",
             "55194010",
             "3811105598134490",
             "jane004",
             "password94",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem37 = new System.Windows.Forms.ListViewItem(new string[] {
             "Jacob W Brookhouse",
             "Debit Card",
             "9090909090909090",
             "000",
             "01 / 22",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem38 = new System.Windows.Forms.ListViewItem(new string[] {
             "John A Doe",
             "Pre-Paid",
             "9090909090909090",
             "000",
             "09 / 23",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem39 = new System.Windows.Forms.ListViewItem(new string[] {
             "Jane L Doe",
             "Credit Card",
             "9090909090909090",
             "000",
             "09 / 24",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem40 = new System.Windows.Forms.ListViewItem(new string[] {
             "Instagram Keys",
             "1k6-g5G",
             "3H6-g99",
@@ -189,42 +189,38 @@ namespace KeyBit_ID.Forms
             this.btnMaster = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel11 = new MaterialSkin.Controls.MaterialLabel();
             this.tbMaster = new MaterialSkin.Controls.MaterialTextBox();
-            this.materialCard15 = new MaterialSkin.Controls.MaterialCard();
+            this.materialCard11 = new MaterialSkin.Controls.MaterialCard();
             this.totalCounts = new System.Windows.Forms.Label();
-            this.otherTotal = new System.Windows.Forms.Label();
-            this.cardTotal = new System.Windows.Forms.Label();
-            this.bankTotal = new System.Windows.Forms.Label();
-            this.websiteTotal = new System.Windows.Forms.Label();
-            this.materialCard14 = new MaterialSkin.Controls.MaterialCard();
             this.materialLabel20 = new MaterialSkin.Controls.MaterialLabel();
+            this.otherTotal = new System.Windows.Forms.Label();
+            this.materialLabel18 = new MaterialSkin.Controls.MaterialLabel();
+            this.cardTotal = new System.Windows.Forms.Label();
             this.materialLabel21 = new MaterialSkin.Controls.MaterialLabel();
+            this.bankTotal = new System.Windows.Forms.Label();
+            this.materialLabel19 = new MaterialSkin.Controls.MaterialLabel();
+            this.websiteTotal = new System.Windows.Forms.Label();
             this.gaugeControl4 = new DevExpress.XtraGauges.Win.GaugeControl();
             this.circularGauge3 = new DevExpress.XtraGauges.Win.Gauges.Circular.CircularGauge();
             this.imageIndicatorComponent4 = new DevExpress.XtraGauges.Win.Base.ImageIndicatorComponent();
             this.labelComponent4 = new DevExpress.XtraGauges.Win.Base.LabelComponent();
             this.arcScaleRangeBarComponent4 = new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleRangeBarComponent();
             this.arcScaleComponent4 = new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent();
-            this.materialCard13 = new MaterialSkin.Controls.MaterialCard();
-            this.materialLabel19 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel16 = new MaterialSkin.Controls.MaterialLabel();
-            this.gaugeControl3 = new DevExpress.XtraGauges.Win.GaugeControl();
-            this.circularGauge2 = new DevExpress.XtraGauges.Win.Gauges.Circular.CircularGauge();
-            this.imageIndicatorComponent3 = new DevExpress.XtraGauges.Win.Base.ImageIndicatorComponent();
-            this.labelComponent3 = new DevExpress.XtraGauges.Win.Base.LabelComponent();
-            this.arcScaleRangeBarComponent3 = new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleRangeBarComponent();
-            this.arcScaleComponent3 = new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent();
-            this.materialCard12 = new MaterialSkin.Controls.MaterialCard();
-            this.materialLabel18 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel15 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel17 = new MaterialSkin.Controls.MaterialLabel();
             this.gaugeControl2 = new DevExpress.XtraGauges.Win.GaugeControl();
             this.circularGauge1 = new DevExpress.XtraGauges.Win.Gauges.Circular.CircularGauge();
             this.imageIndicatorComponent2 = new DevExpress.XtraGauges.Win.Base.ImageIndicatorComponent();
             this.labelComponent2 = new DevExpress.XtraGauges.Win.Base.LabelComponent();
             this.arcScaleRangeBarComponent2 = new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleRangeBarComponent();
             this.arcScaleComponent2 = new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent();
-            this.materialCard11 = new MaterialSkin.Controls.MaterialCard();
-            this.materialLabel17 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel16 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel12 = new MaterialSkin.Controls.MaterialLabel();
+            this.gaugeControl3 = new DevExpress.XtraGauges.Win.GaugeControl();
+            this.circularGauge2 = new DevExpress.XtraGauges.Win.Gauges.Circular.CircularGauge();
+            this.imageIndicatorComponent3 = new DevExpress.XtraGauges.Win.Base.ImageIndicatorComponent();
+            this.labelComponent3 = new DevExpress.XtraGauges.Win.Base.LabelComponent();
+            this.arcScaleRangeBarComponent3 = new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleRangeBarComponent();
+            this.arcScaleComponent3 = new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent();
             this.gaugeControl1 = new DevExpress.XtraGauges.Win.GaugeControl();
             this.circularGauge14 = new DevExpress.XtraGauges.Win.Gauges.Circular.CircularGauge();
             this.imageIndicatorComponent1 = new DevExpress.XtraGauges.Win.Base.ImageIndicatorComponent();
@@ -316,10 +312,36 @@ namespace KeyBit_ID.Forms
             this.oNotes = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.materialDrawer2 = new MaterialSkin.Controls.MaterialDrawer();
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
+            this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.materialCard17 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.materialButton15 = new MaterialSkin.Controls.MaterialButton();
+            this.materialCard16 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.materialButton14 = new MaterialSkin.Controls.MaterialButton();
+            this.materialCard15 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.materialButton13 = new MaterialSkin.Controls.MaterialButton();
+            this.materialCard14 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.materialButton12 = new MaterialSkin.Controls.MaterialButton();
+            this.materialCard13 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.materialButton11 = new MaterialSkin.Controls.MaterialButton();
+            this.materialCard12 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.materialButton10 = new MaterialSkin.Controls.MaterialButton();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.materialCard7 = new MaterialSkin.Controls.MaterialCard();
             this.materialLabel14 = new MaterialSkin.Controls.MaterialLabel();
             this.materialCard6 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.materialLabel23 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialSwitch1 = new MaterialSkin.Controls.MaterialSwitch();
+            this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
+            this.materialComboBox2 = new MaterialSkin.Controls.MaterialComboBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.materialLabel22 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.materialButton7 = new MaterialSkin.Controls.MaterialButton();
@@ -356,6 +378,9 @@ namespace KeyBit_ID.Forms
             this.cardsTableAdapter = new KeyBit_ID.KeyStoreDataSetTableAdapters.CardsTableAdapter();
             this.otherTableAdapter = new KeyBit_ID.KeyStoreDataSetTableAdapters.OtherTableAdapter();
             this.vaultCheck = new System.Windows.Forms.Timer(this.components);
+            this.materialCard18 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.materialButton16 = new MaterialSkin.Controls.MaterialButton();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.keyStoreDataSetBindingSource)).BeginInit();
@@ -382,26 +407,22 @@ namespace KeyBit_ID.Forms
             this.panel1.SuspendLayout();
             this.materialCard10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            this.materialCard15.SuspendLayout();
-            this.materialCard14.SuspendLayout();
+            this.materialCard11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.circularGauge3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageIndicatorComponent4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.labelComponent4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleRangeBarComponent4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleComponent4)).BeginInit();
-            this.materialCard13.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.circularGauge2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageIndicatorComponent3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.labelComponent3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.arcScaleRangeBarComponent3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.arcScaleComponent3)).BeginInit();
-            this.materialCard12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.circularGauge1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageIndicatorComponent2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.labelComponent2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleRangeBarComponent2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleComponent2)).BeginInit();
-            this.materialCard11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.circularGauge2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageIndicatorComponent3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.labelComponent3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.arcScaleRangeBarComponent3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.arcScaleComponent3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.circularGauge14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageIndicatorComponent1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.labelComponent1)).BeginInit();
@@ -429,9 +450,24 @@ namespace KeyBit_ID.Forms
             this.tabPage6.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.tabPage8.SuspendLayout();
+            this.tabPage13.SuspendLayout();
+            this.materialCard17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            this.materialCard16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            this.materialCard15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            this.materialCard14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            this.materialCard13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            this.materialCard12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.tabPage3.SuspendLayout();
             this.materialCard7.SuspendLayout();
             this.materialCard6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.materialCard9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -441,6 +477,8 @@ namespace KeyBit_ID.Forms
             this.materialCard2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
+            this.materialCard18.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.SuspendLayout();
             // 
             // gridView2
@@ -1215,6 +1253,7 @@ namespace KeyBit_ID.Forms
             | System.Windows.Forms.AnchorStyles.Right)));
             this.materialTabControl1.Controls.Add(this.tabPage1);
             this.materialTabControl1.Controls.Add(this.tabPage2);
+            this.materialTabControl1.Controls.Add(this.tabPage13);
             this.materialTabControl1.Controls.Add(this.tabPage3);
             this.materialTabControl1.Controls.Add(this.tabPage4);
             this.materialTabControl1.Depth = 0;
@@ -1248,10 +1287,6 @@ namespace KeyBit_ID.Forms
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.Controls.Add(this.panel1);
-            this.panel2.Controls.Add(this.materialCard15);
-            this.panel2.Controls.Add(this.materialCard14);
-            this.panel2.Controls.Add(this.materialCard13);
-            this.panel2.Controls.Add(this.materialCard12);
             this.panel2.Controls.Add(this.materialCard11);
             this.panel2.Location = new System.Drawing.Point(22, 6);
             this.panel2.Name = "panel2";
@@ -1261,7 +1296,7 @@ namespace KeyBit_ID.Forms
             // panel1
             // 
             this.panel1.Controls.Add(this.materialCard10);
-            this.panel1.Location = new System.Drawing.Point(10, 31);
+            this.panel1.Location = new System.Drawing.Point(10, 24);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(794, 389);
             this.panel1.TabIndex = 6;
@@ -1357,116 +1392,148 @@ namespace KeyBit_ID.Forms
             this.tbMaster.TrailingIcon = null;
             this.tbMaster.UseTallSize = false;
             // 
-            // materialCard15
+            // materialCard11
             // 
-            this.materialCard15.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.materialCard15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard15.Controls.Add(this.totalCounts);
-            this.materialCard15.Controls.Add(this.otherTotal);
-            this.materialCard15.Controls.Add(this.cardTotal);
-            this.materialCard15.Controls.Add(this.bankTotal);
-            this.materialCard15.Controls.Add(this.websiteTotal);
-            this.materialCard15.Depth = 0;
-            this.materialCard15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard15.Location = new System.Drawing.Point(289, 222);
-            this.materialCard15.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard15.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard15.Name = "materialCard15";
-            this.materialCard15.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard15.Size = new System.Drawing.Size(236, 217);
-            this.materialCard15.TabIndex = 10;
-            this.materialCard15.Visible = false;
+            this.materialCard11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.materialCard11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard11.Controls.Add(this.totalCounts);
+            this.materialCard11.Controls.Add(this.materialLabel20);
+            this.materialCard11.Controls.Add(this.otherTotal);
+            this.materialCard11.Controls.Add(this.materialLabel18);
+            this.materialCard11.Controls.Add(this.cardTotal);
+            this.materialCard11.Controls.Add(this.materialLabel21);
+            this.materialCard11.Controls.Add(this.bankTotal);
+            this.materialCard11.Controls.Add(this.materialLabel19);
+            this.materialCard11.Controls.Add(this.websiteTotal);
+            this.materialCard11.Controls.Add(this.gaugeControl4);
+            this.materialCard11.Controls.Add(this.materialLabel15);
+            this.materialCard11.Controls.Add(this.materialLabel17);
+            this.materialCard11.Controls.Add(this.gaugeControl2);
+            this.materialCard11.Controls.Add(this.materialLabel16);
+            this.materialCard11.Controls.Add(this.materialLabel12);
+            this.materialCard11.Controls.Add(this.gaugeControl3);
+            this.materialCard11.Controls.Add(this.gaugeControl1);
+            this.materialCard11.Depth = 0;
+            this.materialCard11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard11.Location = new System.Drawing.Point(25, 8);
+            this.materialCard11.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard11.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard11.Name = "materialCard11";
+            this.materialCard11.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard11.Size = new System.Drawing.Size(764, 213);
+            this.materialCard11.TabIndex = 8;
+            this.materialCard11.Visible = false;
             // 
             // totalCounts
             // 
+            this.totalCounts.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.totalCounts.AutoSize = true;
-            this.totalCounts.Location = new System.Drawing.Point(29, 153);
+            this.totalCounts.Location = new System.Drawing.Point(17, 156);
             this.totalCounts.Name = "totalCounts";
             this.totalCounts.Size = new System.Drawing.Size(35, 13);
             this.totalCounts.TabIndex = 4;
             this.totalCounts.Text = "label1";
             // 
-            // otherTotal
-            // 
-            this.otherTotal.AutoSize = true;
-            this.otherTotal.Location = new System.Drawing.Point(29, 125);
-            this.otherTotal.Name = "otherTotal";
-            this.otherTotal.Size = new System.Drawing.Size(35, 13);
-            this.otherTotal.TabIndex = 3;
-            this.otherTotal.Text = "label1";
-            // 
-            // cardTotal
-            // 
-            this.cardTotal.AutoSize = true;
-            this.cardTotal.Location = new System.Drawing.Point(29, 97);
-            this.cardTotal.Name = "cardTotal";
-            this.cardTotal.Size = new System.Drawing.Size(35, 13);
-            this.cardTotal.TabIndex = 2;
-            this.cardTotal.Text = "label1";
-            // 
-            // bankTotal
-            // 
-            this.bankTotal.AutoSize = true;
-            this.bankTotal.Location = new System.Drawing.Point(29, 69);
-            this.bankTotal.Name = "bankTotal";
-            this.bankTotal.Size = new System.Drawing.Size(35, 13);
-            this.bankTotal.TabIndex = 1;
-            this.bankTotal.Text = "label1";
-            // 
-            // websiteTotal
-            // 
-            this.websiteTotal.AutoSize = true;
-            this.websiteTotal.Location = new System.Drawing.Point(29, 41);
-            this.websiteTotal.Name = "websiteTotal";
-            this.websiteTotal.Size = new System.Drawing.Size(35, 13);
-            this.websiteTotal.TabIndex = 0;
-            this.websiteTotal.Text = "label1";
-            // 
-            // materialCard14
-            // 
-            this.materialCard14.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.materialCard14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard14.Controls.Add(this.materialLabel20);
-            this.materialCard14.Controls.Add(this.materialLabel21);
-            this.materialCard14.Controls.Add(this.gaugeControl4);
-            this.materialCard14.Depth = 0;
-            this.materialCard14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard14.Location = new System.Drawing.Point(25, 222);
-            this.materialCard14.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard14.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard14.Name = "materialCard14";
-            this.materialCard14.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard14.Size = new System.Drawing.Size(236, 217);
-            this.materialCard14.TabIndex = 11;
-            this.materialCard14.Visible = false;
-            // 
             // materialLabel20
             // 
+            this.materialLabel20.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.materialLabel20.AutoSize = true;
             this.materialLabel20.Depth = 0;
             this.materialLabel20.Font = new System.Drawing.Font("Roboto", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel20.FontType = MaterialSkin.MaterialSkinManager.fontType.Overline;
-            this.materialLabel20.Location = new System.Drawing.Point(83, 185);
+            this.materialLabel20.Location = new System.Drawing.Point(496, 184);
             this.materialLabel20.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel20.Name = "materialLabel20";
             this.materialLabel20.Size = new System.Drawing.Size(71, 13);
             this.materialLabel20.TabIndex = 10;
             this.materialLabel20.Text = "Total Writes/sec";
             // 
+            // otherTotal
+            // 
+            this.otherTotal.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.otherTotal.AutoSize = true;
+            this.otherTotal.Location = new System.Drawing.Point(17, 128);
+            this.otherTotal.Name = "otherTotal";
+            this.otherTotal.Size = new System.Drawing.Size(35, 13);
+            this.otherTotal.TabIndex = 3;
+            this.otherTotal.Text = "label1";
+            // 
+            // materialLabel18
+            // 
+            this.materialLabel18.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.materialLabel18.AutoSize = true;
+            this.materialLabel18.Depth = 0;
+            this.materialLabel18.Font = new System.Drawing.Font("Roboto", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel18.FontType = MaterialSkin.MaterialSkinManager.fontType.Overline;
+            this.materialLabel18.Location = new System.Drawing.Point(359, 184);
+            this.materialLabel18.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel18.Name = "materialLabel18";
+            this.materialLabel18.Size = new System.Drawing.Size(52, 13);
+            this.materialLabel18.TabIndex = 10;
+            this.materialLabel18.Text = "Total Usage";
+            // 
+            // cardTotal
+            // 
+            this.cardTotal.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.cardTotal.AutoSize = true;
+            this.cardTotal.Location = new System.Drawing.Point(17, 100);
+            this.cardTotal.Name = "cardTotal";
+            this.cardTotal.Size = new System.Drawing.Size(35, 13);
+            this.cardTotal.TabIndex = 2;
+            this.cardTotal.Text = "label1";
+            // 
             // materialLabel21
             // 
+            this.materialLabel21.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.materialLabel21.AutoSize = true;
             this.materialLabel21.Depth = 0;
             this.materialLabel21.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel21.Location = new System.Drawing.Point(50, 164);
+            this.materialLabel21.Location = new System.Drawing.Point(463, 163);
             this.materialLabel21.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel21.Name = "materialLabel21";
             this.materialLabel21.Size = new System.Drawing.Size(137, 19);
             this.materialLabel21.TabIndex = 8;
             this.materialLabel21.Text = "Storage (All Drives)";
             // 
+            // bankTotal
+            // 
+            this.bankTotal.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.bankTotal.AutoSize = true;
+            this.bankTotal.Location = new System.Drawing.Point(17, 72);
+            this.bankTotal.Name = "bankTotal";
+            this.bankTotal.Size = new System.Drawing.Size(35, 13);
+            this.bankTotal.TabIndex = 1;
+            this.bankTotal.Text = "label1";
+            // 
+            // materialLabel19
+            // 
+            this.materialLabel19.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.materialLabel19.AutoSize = true;
+            this.materialLabel19.Depth = 0;
+            this.materialLabel19.Font = new System.Drawing.Font("Roboto", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel19.FontType = MaterialSkin.MaterialSkinManager.fontType.Overline;
+            this.materialLabel19.Location = new System.Drawing.Point(643, 184);
+            this.materialLabel19.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel19.Name = "materialLabel19";
+            this.materialLabel19.Size = new System.Drawing.Size(68, 13);
+            this.materialLabel19.TabIndex = 10;
+            this.materialLabel19.Text = "Total Bytes/sec";
+            // 
+            // websiteTotal
+            // 
+            this.websiteTotal.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.websiteTotal.AutoSize = true;
+            this.websiteTotal.Location = new System.Drawing.Point(17, 44);
+            this.websiteTotal.Name = "websiteTotal";
+            this.websiteTotal.Size = new System.Drawing.Size(35, 13);
+            this.websiteTotal.TabIndex = 0;
+            this.websiteTotal.Text = "label1";
+            // 
             // gaugeControl4
             // 
+            this.gaugeControl4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.gaugeControl4.AutoLayout = false;
             this.gaugeControl4.BackColor = System.Drawing.Color.Transparent;
             this.gaugeControl4.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
@@ -1475,7 +1542,7 @@ namespace KeyBit_ID.Forms
             | DevExpress.XtraGauges.Core.Base.TargetElement.Label)));
             this.gaugeControl4.Gauges.AddRange(new DevExpress.XtraGauges.Base.IGauge[] {
             this.circularGauge3});
-            this.gaugeControl4.Location = new System.Drawing.Point(48, 16);
+            this.gaugeControl4.Location = new System.Drawing.Point(461, 15);
             this.gaugeControl4.Name = "gaugeControl4";
             this.gaugeControl4.Size = new System.Drawing.Size(140, 151);
             this.gaugeControl4.TabIndex = 7;
@@ -1542,53 +1609,141 @@ namespace KeyBit_ID.Forms
             this.arcScaleComponent4.Name = "scale1";
             this.arcScaleComponent4.StartAngle = -270F;
             this.arcScaleComponent4.UseColorScheme = false;
-            this.arcScaleComponent4.Value = 40F;
             // 
-            // materialCard13
+            // materialLabel15
             // 
-            this.materialCard13.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.materialCard13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard13.Controls.Add(this.materialLabel19);
-            this.materialCard13.Controls.Add(this.materialLabel16);
-            this.materialCard13.Controls.Add(this.gaugeControl3);
-            this.materialCard13.Depth = 0;
-            this.materialCard13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard13.Location = new System.Drawing.Point(553, -9);
-            this.materialCard13.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard13.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard13.Name = "materialCard13";
-            this.materialCard13.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard13.Size = new System.Drawing.Size(236, 217);
-            this.materialCard13.TabIndex = 10;
-            this.materialCard13.Visible = false;
+            this.materialLabel15.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.materialLabel15.AutoSize = true;
+            this.materialLabel15.Depth = 0;
+            this.materialLabel15.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel15.Location = new System.Drawing.Point(368, 163);
+            this.materialLabel15.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel15.Name = "materialLabel15";
+            this.materialLabel15.Size = new System.Drawing.Size(35, 19);
+            this.materialLabel15.TabIndex = 8;
+            this.materialLabel15.Text = "RAM";
             // 
-            // materialLabel19
+            // materialLabel17
             // 
-            this.materialLabel19.AutoSize = true;
-            this.materialLabel19.Depth = 0;
-            this.materialLabel19.Font = new System.Drawing.Font("Roboto", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel19.FontType = MaterialSkin.MaterialSkinManager.fontType.Overline;
-            this.materialLabel19.Location = new System.Drawing.Point(84, 185);
-            this.materialLabel19.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel19.Name = "materialLabel19";
-            this.materialLabel19.Size = new System.Drawing.Size(68, 13);
-            this.materialLabel19.TabIndex = 10;
-            this.materialLabel19.Text = "Total Bytes/sec";
+            this.materialLabel17.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.materialLabel17.AutoSize = true;
+            this.materialLabel17.Depth = 0;
+            this.materialLabel17.Font = new System.Drawing.Font("Roboto", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel17.FontType = MaterialSkin.MaterialSkinManager.fontType.Overline;
+            this.materialLabel17.Location = new System.Drawing.Point(213, 184);
+            this.materialLabel17.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel17.Name = "materialLabel17";
+            this.materialLabel17.Size = new System.Drawing.Size(52, 13);
+            this.materialLabel17.TabIndex = 9;
+            this.materialLabel17.Text = "Total Usage";
+            // 
+            // gaugeControl2
+            // 
+            this.gaugeControl2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.gaugeControl2.AutoLayout = false;
+            this.gaugeControl2.BackColor = System.Drawing.Color.Transparent;
+            this.gaugeControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.gaugeControl2.ColorScheme.Color = System.Drawing.Color.DodgerBlue;
+            this.gaugeControl2.ColorScheme.TargetElements = ((DevExpress.XtraGauges.Core.Base.TargetElement)(((DevExpress.XtraGauges.Core.Base.TargetElement.RangeBar | DevExpress.XtraGauges.Core.Base.TargetElement.ImageIndicator) 
+            | DevExpress.XtraGauges.Core.Base.TargetElement.Label)));
+            this.gaugeControl2.Gauges.AddRange(new DevExpress.XtraGauges.Base.IGauge[] {
+            this.circularGauge1});
+            this.gaugeControl2.Location = new System.Drawing.Point(315, 15);
+            this.gaugeControl2.Name = "gaugeControl2";
+            this.gaugeControl2.Size = new System.Drawing.Size(140, 151);
+            this.gaugeControl2.TabIndex = 7;
+            // 
+            // circularGauge1
+            // 
+            this.circularGauge1.Bounds = new System.Drawing.Rectangle(6, 6, 131, 139);
+            this.circularGauge1.Images.AddRange(new DevExpress.XtraGauges.Win.Base.ImageIndicatorComponent[] {
+            this.imageIndicatorComponent2});
+            this.circularGauge1.Labels.AddRange(new DevExpress.XtraGauges.Win.Base.LabelComponent[] {
+            this.labelComponent2});
+            this.circularGauge1.Name = "circularGauge1";
+            this.circularGauge1.RangeBars.AddRange(new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleRangeBarComponent[] {
+            this.arcScaleRangeBarComponent2});
+            this.circularGauge1.Scales.AddRange(new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent[] {
+            this.arcScaleComponent2});
+            // 
+            // imageIndicatorComponent2
+            // 
+            this.imageIndicatorComponent2.Image = global::KeyBit_ID.Properties.Resources.system_task_96px;
+            this.imageIndicatorComponent2.Name = "circularGauge1_ImageIndicator1";
+            this.imageIndicatorComponent2.Position = new DevExpress.XtraGauges.Core.Base.PointF2D(123F, 125F);
+            this.imageIndicatorComponent2.ZOrder = -1001;
+            // 
+            // labelComponent2
+            // 
+            this.labelComponent2.AppearanceText.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.labelComponent2.AppearanceText.TextBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:DodgerBlue");
+            this.labelComponent2.Name = "circularGauge3_Label1";
+            this.labelComponent2.Position = new DevExpress.XtraGauges.Core.Base.PointF2D(205F, 93F);
+            this.labelComponent2.Size = new System.Drawing.SizeF(85F, 40F);
+            this.labelComponent2.Text = "0";
+            this.labelComponent2.ZOrder = -1001;
+            // 
+            // arcScaleRangeBarComponent2
+            // 
+            this.arcScaleRangeBarComponent2.AppearanceRangeBar.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:DodgerBlue");
+            this.arcScaleRangeBarComponent2.ArcScale = this.arcScaleComponent2;
+            this.arcScaleRangeBarComponent2.Name = "circularGauge3_RangeBar2";
+            this.arcScaleRangeBarComponent2.RoundedCaps = true;
+            this.arcScaleRangeBarComponent2.ShowBackground = true;
+            this.arcScaleRangeBarComponent2.StartOffset = 79F;
+            this.arcScaleRangeBarComponent2.ZOrder = -10;
+            // 
+            // arcScaleComponent2
+            // 
+            this.arcScaleComponent2.AppearanceMajorTickmark.BorderBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:White");
+            this.arcScaleComponent2.AppearanceMajorTickmark.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:White");
+            this.arcScaleComponent2.AppearanceMinorTickmark.BorderBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:White");
+            this.arcScaleComponent2.AppearanceMinorTickmark.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:White");
+            this.arcScaleComponent2.AppearanceTickmarkText.Font = new System.Drawing.Font("Tahoma", 8.5F);
+            this.arcScaleComponent2.AppearanceTickmarkText.TextBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#484E5A");
+            this.arcScaleComponent2.Center = new DevExpress.XtraGauges.Core.Base.PointF2D(125F, 125F);
+            this.arcScaleComponent2.EndAngle = -45F;
+            this.arcScaleComponent2.MajorTickCount = 0;
+            this.arcScaleComponent2.MajorTickmark.FormatString = "{0:F0}";
+            this.arcScaleComponent2.MajorTickmark.ShapeOffset = -14F;
+            this.arcScaleComponent2.MajorTickmark.ShapeType = DevExpress.XtraGauges.Core.Model.TickmarkShapeType.Circular_Style16_1;
+            this.arcScaleComponent2.MajorTickmark.TextOrientation = DevExpress.XtraGauges.Core.Model.LabelOrientation.LeftToRight;
+            this.arcScaleComponent2.MaxValue = 100F;
+            this.arcScaleComponent2.MinorTickCount = 0;
+            this.arcScaleComponent2.MinorTickmark.ShapeOffset = -7F;
+            this.arcScaleComponent2.MinorTickmark.ShapeType = DevExpress.XtraGauges.Core.Model.TickmarkShapeType.Circular_Style16_2;
+            this.arcScaleComponent2.Name = "scale1";
+            this.arcScaleComponent2.StartAngle = -270F;
             // 
             // materialLabel16
             // 
+            this.materialLabel16.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.materialLabel16.AutoSize = true;
             this.materialLabel16.Depth = 0;
             this.materialLabel16.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel16.Location = new System.Drawing.Point(89, 164);
+            this.materialLabel16.Location = new System.Drawing.Point(648, 163);
             this.materialLabel16.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel16.Name = "materialLabel16";
             this.materialLabel16.Size = new System.Drawing.Size(59, 19);
             this.materialLabel16.TabIndex = 8;
             this.materialLabel16.Text = "Network";
             // 
+            // materialLabel12
+            // 
+            this.materialLabel12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.materialLabel12.AutoSize = true;
+            this.materialLabel12.Depth = 0;
+            this.materialLabel12.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel12.Location = new System.Drawing.Point(224, 163);
+            this.materialLabel12.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel12.Name = "materialLabel12";
+            this.materialLabel12.Size = new System.Drawing.Size(31, 19);
+            this.materialLabel12.TabIndex = 8;
+            this.materialLabel12.Text = "CPU";
+            // 
             // gaugeControl3
             // 
+            this.gaugeControl3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.gaugeControl3.AutoLayout = false;
             this.gaugeControl3.BackColor = System.Drawing.Color.Transparent;
             this.gaugeControl3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
@@ -1597,7 +1752,7 @@ namespace KeyBit_ID.Forms
             | DevExpress.XtraGauges.Core.Base.TargetElement.Label)));
             this.gaugeControl3.Gauges.AddRange(new DevExpress.XtraGauges.Base.IGauge[] {
             this.circularGauge2});
-            this.gaugeControl3.Location = new System.Drawing.Point(48, 16);
+            this.gaugeControl3.Location = new System.Drawing.Point(607, 15);
             this.gaugeControl3.Name = "gaugeControl3";
             this.gaugeControl3.Size = new System.Drawing.Size(140, 151);
             this.gaugeControl3.TabIndex = 7;
@@ -1664,174 +1819,10 @@ namespace KeyBit_ID.Forms
             this.arcScaleComponent3.Name = "scale1";
             this.arcScaleComponent3.StartAngle = -270F;
             this.arcScaleComponent3.UseColorScheme = false;
-            this.arcScaleComponent3.Value = 40F;
-            // 
-            // materialCard12
-            // 
-            this.materialCard12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.materialCard12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard12.Controls.Add(this.materialLabel18);
-            this.materialCard12.Controls.Add(this.materialLabel15);
-            this.materialCard12.Controls.Add(this.gaugeControl2);
-            this.materialCard12.Depth = 0;
-            this.materialCard12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard12.Location = new System.Drawing.Point(289, -9);
-            this.materialCard12.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard12.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard12.Name = "materialCard12";
-            this.materialCard12.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard12.Size = new System.Drawing.Size(236, 217);
-            this.materialCard12.TabIndex = 9;
-            this.materialCard12.Visible = false;
-            // 
-            // materialLabel18
-            // 
-            this.materialLabel18.AutoSize = true;
-            this.materialLabel18.Depth = 0;
-            this.materialLabel18.Font = new System.Drawing.Font("Roboto", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel18.FontType = MaterialSkin.MaterialSkinManager.fontType.Overline;
-            this.materialLabel18.Location = new System.Drawing.Point(92, 185);
-            this.materialLabel18.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel18.Name = "materialLabel18";
-            this.materialLabel18.Size = new System.Drawing.Size(52, 13);
-            this.materialLabel18.TabIndex = 10;
-            this.materialLabel18.Text = "Total Usage";
-            // 
-            // materialLabel15
-            // 
-            this.materialLabel15.AutoSize = true;
-            this.materialLabel15.Depth = 0;
-            this.materialLabel15.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel15.Location = new System.Drawing.Point(101, 164);
-            this.materialLabel15.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel15.Name = "materialLabel15";
-            this.materialLabel15.Size = new System.Drawing.Size(35, 19);
-            this.materialLabel15.TabIndex = 8;
-            this.materialLabel15.Text = "RAM";
-            // 
-            // gaugeControl2
-            // 
-            this.gaugeControl2.AutoLayout = false;
-            this.gaugeControl2.BackColor = System.Drawing.Color.Transparent;
-            this.gaugeControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.gaugeControl2.ColorScheme.Color = System.Drawing.Color.DodgerBlue;
-            this.gaugeControl2.ColorScheme.TargetElements = ((DevExpress.XtraGauges.Core.Base.TargetElement)(((DevExpress.XtraGauges.Core.Base.TargetElement.RangeBar | DevExpress.XtraGauges.Core.Base.TargetElement.ImageIndicator) 
-            | DevExpress.XtraGauges.Core.Base.TargetElement.Label)));
-            this.gaugeControl2.Gauges.AddRange(new DevExpress.XtraGauges.Base.IGauge[] {
-            this.circularGauge1});
-            this.gaugeControl2.Location = new System.Drawing.Point(48, 16);
-            this.gaugeControl2.Name = "gaugeControl2";
-            this.gaugeControl2.Size = new System.Drawing.Size(140, 151);
-            this.gaugeControl2.TabIndex = 7;
-            // 
-            // circularGauge1
-            // 
-            this.circularGauge1.Bounds = new System.Drawing.Rectangle(6, 6, 131, 139);
-            this.circularGauge1.Images.AddRange(new DevExpress.XtraGauges.Win.Base.ImageIndicatorComponent[] {
-            this.imageIndicatorComponent2});
-            this.circularGauge1.Labels.AddRange(new DevExpress.XtraGauges.Win.Base.LabelComponent[] {
-            this.labelComponent2});
-            this.circularGauge1.Name = "circularGauge1";
-            this.circularGauge1.RangeBars.AddRange(new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleRangeBarComponent[] {
-            this.arcScaleRangeBarComponent2});
-            this.circularGauge1.Scales.AddRange(new DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent[] {
-            this.arcScaleComponent2});
-            // 
-            // imageIndicatorComponent2
-            // 
-            this.imageIndicatorComponent2.Image = global::KeyBit_ID.Properties.Resources.system_task_96px;
-            this.imageIndicatorComponent2.Name = "circularGauge1_ImageIndicator1";
-            this.imageIndicatorComponent2.Position = new DevExpress.XtraGauges.Core.Base.PointF2D(123F, 125F);
-            this.imageIndicatorComponent2.ZOrder = -1001;
-            // 
-            // labelComponent2
-            // 
-            this.labelComponent2.AppearanceText.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.labelComponent2.AppearanceText.TextBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:DodgerBlue");
-            this.labelComponent2.Name = "circularGauge3_Label1";
-            this.labelComponent2.Position = new DevExpress.XtraGauges.Core.Base.PointF2D(205F, 93F);
-            this.labelComponent2.Size = new System.Drawing.SizeF(85F, 40F);
-            this.labelComponent2.Text = "0";
-            this.labelComponent2.ZOrder = -1001;
-            // 
-            // arcScaleRangeBarComponent2
-            // 
-            this.arcScaleRangeBarComponent2.AppearanceRangeBar.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:DodgerBlue");
-            this.arcScaleRangeBarComponent2.ArcScale = this.arcScaleComponent2;
-            this.arcScaleRangeBarComponent2.Name = "circularGauge3_RangeBar2";
-            this.arcScaleRangeBarComponent2.RoundedCaps = true;
-            this.arcScaleRangeBarComponent2.ShowBackground = true;
-            this.arcScaleRangeBarComponent2.StartOffset = 79F;
-            this.arcScaleRangeBarComponent2.ZOrder = -10;
-            // 
-            // arcScaleComponent2
-            // 
-            this.arcScaleComponent2.AppearanceMajorTickmark.BorderBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:White");
-            this.arcScaleComponent2.AppearanceMajorTickmark.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:White");
-            this.arcScaleComponent2.AppearanceMinorTickmark.BorderBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:White");
-            this.arcScaleComponent2.AppearanceMinorTickmark.ContentBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:White");
-            this.arcScaleComponent2.AppearanceTickmarkText.Font = new System.Drawing.Font("Tahoma", 8.5F);
-            this.arcScaleComponent2.AppearanceTickmarkText.TextBrush = new DevExpress.XtraGauges.Core.Drawing.SolidBrushObject("Color:#484E5A");
-            this.arcScaleComponent2.Center = new DevExpress.XtraGauges.Core.Base.PointF2D(125F, 125F);
-            this.arcScaleComponent2.EndAngle = -45F;
-            this.arcScaleComponent2.MajorTickCount = 0;
-            this.arcScaleComponent2.MajorTickmark.FormatString = "{0:F0}";
-            this.arcScaleComponent2.MajorTickmark.ShapeOffset = -14F;
-            this.arcScaleComponent2.MajorTickmark.ShapeType = DevExpress.XtraGauges.Core.Model.TickmarkShapeType.Circular_Style16_1;
-            this.arcScaleComponent2.MajorTickmark.TextOrientation = DevExpress.XtraGauges.Core.Model.LabelOrientation.LeftToRight;
-            this.arcScaleComponent2.MaxValue = 100F;
-            this.arcScaleComponent2.MinorTickCount = 0;
-            this.arcScaleComponent2.MinorTickmark.ShapeOffset = -7F;
-            this.arcScaleComponent2.MinorTickmark.ShapeType = DevExpress.XtraGauges.Core.Model.TickmarkShapeType.Circular_Style16_2;
-            this.arcScaleComponent2.Name = "scale1";
-            this.arcScaleComponent2.StartAngle = -270F;
-            this.arcScaleComponent2.Value = 40F;
-            // 
-            // materialCard11
-            // 
-            this.materialCard11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.materialCard11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard11.Controls.Add(this.materialLabel17);
-            this.materialCard11.Controls.Add(this.materialLabel12);
-            this.materialCard11.Controls.Add(this.gaugeControl1);
-            this.materialCard11.Depth = 0;
-            this.materialCard11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard11.Location = new System.Drawing.Point(25, -9);
-            this.materialCard11.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard11.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard11.Name = "materialCard11";
-            this.materialCard11.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard11.Size = new System.Drawing.Size(236, 217);
-            this.materialCard11.TabIndex = 8;
-            this.materialCard11.Visible = false;
-            // 
-            // materialLabel17
-            // 
-            this.materialLabel17.AutoSize = true;
-            this.materialLabel17.Depth = 0;
-            this.materialLabel17.Font = new System.Drawing.Font("Roboto", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel17.FontType = MaterialSkin.MaterialSkinManager.fontType.Overline;
-            this.materialLabel17.Location = new System.Drawing.Point(92, 185);
-            this.materialLabel17.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel17.Name = "materialLabel17";
-            this.materialLabel17.Size = new System.Drawing.Size(52, 13);
-            this.materialLabel17.TabIndex = 9;
-            this.materialLabel17.Text = "Total Usage";
-            // 
-            // materialLabel12
-            // 
-            this.materialLabel12.AutoSize = true;
-            this.materialLabel12.Depth = 0;
-            this.materialLabel12.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel12.Location = new System.Drawing.Point(103, 164);
-            this.materialLabel12.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel12.Name = "materialLabel12";
-            this.materialLabel12.Size = new System.Drawing.Size(31, 19);
-            this.materialLabel12.TabIndex = 8;
-            this.materialLabel12.Text = "CPU";
             // 
             // gaugeControl1
             // 
+            this.gaugeControl1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.gaugeControl1.AutoLayout = false;
             this.gaugeControl1.BackColor = System.Drawing.Color.Transparent;
             this.gaugeControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
@@ -1840,7 +1831,7 @@ namespace KeyBit_ID.Forms
             | DevExpress.XtraGauges.Core.Base.TargetElement.Label)));
             this.gaugeControl1.Gauges.AddRange(new DevExpress.XtraGauges.Base.IGauge[] {
             this.circularGauge14});
-            this.gaugeControl1.Location = new System.Drawing.Point(48, 16);
+            this.gaugeControl1.Location = new System.Drawing.Point(169, 15);
             this.gaugeControl1.Name = "gaugeControl1";
             this.gaugeControl1.Size = new System.Drawing.Size(140, 151);
             this.gaugeControl1.TabIndex = 7;
@@ -1906,7 +1897,6 @@ namespace KeyBit_ID.Forms
             this.arcScaleComponent1.MinorTickmark.ShapeType = DevExpress.XtraGauges.Core.Model.TickmarkShapeType.Circular_Style16_2;
             this.arcScaleComponent1.Name = "scale1";
             this.arcScaleComponent1.StartAngle = -270F;
-            this.arcScaleComponent1.Value = 40F;
             // 
             // materialCard5
             // 
@@ -2119,7 +2109,7 @@ namespace KeyBit_ID.Forms
             this.materialButton9.Depth = 0;
             this.materialButton9.HighEmphasis = true;
             this.materialButton9.Icon = null;
-            this.materialButton9.Location = new System.Drawing.Point(7, 334);
+            this.materialButton9.Location = new System.Drawing.Point(8, 336);
             this.materialButton9.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton9.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton9.Name = "materialButton9";
@@ -2140,7 +2130,7 @@ namespace KeyBit_ID.Forms
             this.materialButton8.Depth = 0;
             this.materialButton8.HighEmphasis = true;
             this.materialButton8.Icon = null;
-            this.materialButton8.Location = new System.Drawing.Point(6, 384);
+            this.materialButton8.Location = new System.Drawing.Point(7, 386);
             this.materialButton8.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton8.Name = "materialButton8";
@@ -2519,8 +2509,8 @@ namespace KeyBit_ID.Forms
             this.materialListView1.FullRowSelect = true;
             this.materialListView1.HideSelection = false;
             this.materialListView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2});
+            listViewItem33,
+            listViewItem34});
             this.materialListView1.LabelEdit = true;
             this.materialListView1.Location = new System.Drawing.Point(3, 3);
             this.materialListView1.MinimumSize = new System.Drawing.Size(200, 100);
@@ -2592,8 +2582,8 @@ namespace KeyBit_ID.Forms
             this.materialListView2.FullRowSelect = true;
             this.materialListView2.HideSelection = false;
             this.materialListView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem3,
-            listViewItem4});
+            listViewItem35,
+            listViewItem36});
             this.materialListView2.LabelEdit = true;
             this.materialListView2.Location = new System.Drawing.Point(3, 3);
             this.materialListView2.MinimumSize = new System.Drawing.Size(200, 100);
@@ -2664,9 +2654,9 @@ namespace KeyBit_ID.Forms
             this.materialListView3.FullRowSelect = true;
             this.materialListView3.HideSelection = false;
             this.materialListView3.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem5,
-            listViewItem6,
-            listViewItem7});
+            listViewItem37,
+            listViewItem38,
+            listViewItem39});
             this.materialListView3.LabelEdit = true;
             this.materialListView3.Location = new System.Drawing.Point(0, 0);
             this.materialListView3.MinimumSize = new System.Drawing.Size(200, 100);
@@ -2736,7 +2726,7 @@ namespace KeyBit_ID.Forms
             this.materialListView4.FullRowSelect = true;
             this.materialListView4.HideSelection = false;
             this.materialListView4.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem8});
+            listViewItem40});
             this.materialListView4.LabelEdit = true;
             this.materialListView4.Location = new System.Drawing.Point(0, 0);
             this.materialListView4.MinimumSize = new System.Drawing.Size(200, 100);
@@ -2813,6 +2803,295 @@ namespace KeyBit_ID.Forms
             this.materialTabSelector1.Text = "materialTabSelector1";
             this.materialTabSelector1.Visible = false;
             // 
+            // tabPage13
+            // 
+            this.tabPage13.Controls.Add(this.materialCard18);
+            this.tabPage13.Controls.Add(this.materialCard17);
+            this.tabPage13.Controls.Add(this.materialCard16);
+            this.tabPage13.Controls.Add(this.materialCard15);
+            this.tabPage13.Controls.Add(this.materialCard14);
+            this.tabPage13.Controls.Add(this.materialCard13);
+            this.tabPage13.Controls.Add(this.materialCard12);
+            this.tabPage13.ImageKey = "full_tool_storage_box_64px.png";
+            this.tabPage13.Location = new System.Drawing.Point(4, 31);
+            this.tabPage13.Name = "tabPage13";
+            this.tabPage13.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage13.Size = new System.Drawing.Size(858, 445);
+            this.tabPage13.TabIndex = 4;
+            this.tabPage13.Text = "Tool Box";
+            this.tabPage13.UseVisualStyleBackColor = true;
+            // 
+            // materialCard17
+            // 
+            this.materialCard17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard17.Controls.Add(this.pictureBox15);
+            this.materialCard17.Controls.Add(this.materialButton15);
+            this.materialCard17.Depth = 0;
+            this.materialCard17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard17.Location = new System.Drawing.Point(14, 227);
+            this.materialCard17.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard17.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard17.Name = "materialCard17";
+            this.materialCard17.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard17.Size = new System.Drawing.Size(200, 187);
+            this.materialCard17.TabIndex = 6;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Image = global::KeyBit_ID.Properties.Resources.file_96px;
+            this.pictureBox15.Location = new System.Drawing.Point(50, 21);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox15.TabIndex = 1;
+            this.pictureBox15.TabStop = false;
+            // 
+            // materialButton15
+            // 
+            this.materialButton15.AutoSize = false;
+            this.materialButton15.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton15.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton15.Depth = 0;
+            this.materialButton15.HighEmphasis = true;
+            this.materialButton15.Icon = null;
+            this.materialButton15.Location = new System.Drawing.Point(18, 130);
+            this.materialButton15.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton15.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton15.Name = "materialButton15";
+            this.materialButton15.Size = new System.Drawing.Size(164, 36);
+            this.materialButton15.TabIndex = 0;
+            this.materialButton15.Text = "Run SFC Script";
+            this.materialButton15.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+            this.materialButton15.UseAccentColor = true;
+            this.materialButton15.UseVisualStyleBackColor = true;
+            this.materialButton15.Click += new System.EventHandler(this.materialButton15_Click);
+            // 
+            // materialCard16
+            // 
+            this.materialCard16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard16.Controls.Add(this.pictureBox14);
+            this.materialCard16.Controls.Add(this.materialButton14);
+            this.materialCard16.Depth = 0;
+            this.materialCard16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard16.Location = new System.Drawing.Point(644, 31);
+            this.materialCard16.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard16.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard16.Name = "materialCard16";
+            this.materialCard16.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard16.Size = new System.Drawing.Size(200, 187);
+            this.materialCard16.TabIndex = 5;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Image = global::KeyBit_ID.Properties.Resources.website_96pxline;
+            this.pictureBox14.Location = new System.Drawing.Point(50, 21);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox14.TabIndex = 1;
+            this.pictureBox14.TabStop = false;
+            // 
+            // materialButton14
+            // 
+            this.materialButton14.AutoSize = false;
+            this.materialButton14.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton14.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton14.Depth = 0;
+            this.materialButton14.HighEmphasis = true;
+            this.materialButton14.Icon = null;
+            this.materialButton14.Location = new System.Drawing.Point(18, 130);
+            this.materialButton14.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton14.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton14.Name = "materialButton14";
+            this.materialButton14.Size = new System.Drawing.Size(164, 36);
+            this.materialButton14.TabIndex = 0;
+            this.materialButton14.Text = "Run Reset Script";
+            this.materialButton14.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+            this.materialButton14.UseAccentColor = true;
+            this.materialButton14.UseVisualStyleBackColor = true;
+            this.materialButton14.Click += new System.EventHandler(this.materialButton14_Click);
+            // 
+            // materialCard15
+            // 
+            this.materialCard15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard15.Controls.Add(this.pictureBox13);
+            this.materialCard15.Controls.Add(this.materialButton13);
+            this.materialCard15.Depth = 0;
+            this.materialCard15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard15.Location = new System.Drawing.Point(644, 227);
+            this.materialCard15.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard15.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard15.Name = "materialCard15";
+            this.materialCard15.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard15.Size = new System.Drawing.Size(200, 187);
+            this.materialCard15.TabIndex = 4;
+            this.materialCard15.Visible = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = global::KeyBit_ID.Properties.Resources.hdd_96px;
+            this.pictureBox13.Location = new System.Drawing.Point(50, 21);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 1;
+            this.pictureBox13.TabStop = false;
+            // 
+            // materialButton13
+            // 
+            this.materialButton13.AutoSize = false;
+            this.materialButton13.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton13.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton13.Depth = 0;
+            this.materialButton13.HighEmphasis = true;
+            this.materialButton13.Icon = null;
+            this.materialButton13.Location = new System.Drawing.Point(18, 130);
+            this.materialButton13.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton13.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton13.Name = "materialButton13";
+            this.materialButton13.Size = new System.Drawing.Size(164, 36);
+            this.materialButton13.TabIndex = 0;
+            this.materialButton13.Text = "Run Defrag Script";
+            this.materialButton13.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+            this.materialButton13.UseAccentColor = true;
+            this.materialButton13.UseVisualStyleBackColor = true;
+            this.materialButton13.Click += new System.EventHandler(this.materialButton13_Click);
+            // 
+            // materialCard14
+            // 
+            this.materialCard14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard14.Controls.Add(this.pictureBox12);
+            this.materialCard14.Controls.Add(this.materialButton12);
+            this.materialCard14.Depth = 0;
+            this.materialCard14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard14.Location = new System.Drawing.Point(434, 31);
+            this.materialCard14.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard14.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard14.Name = "materialCard14";
+            this.materialCard14.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard14.Size = new System.Drawing.Size(200, 187);
+            this.materialCard14.TabIndex = 3;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = global::KeyBit_ID.Properties.Resources.console_96px;
+            this.pictureBox12.Location = new System.Drawing.Point(50, 21);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 1;
+            this.pictureBox12.TabStop = false;
+            // 
+            // materialButton12
+            // 
+            this.materialButton12.AutoSize = false;
+            this.materialButton12.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton12.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton12.Depth = 0;
+            this.materialButton12.HighEmphasis = true;
+            this.materialButton12.Icon = null;
+            this.materialButton12.Location = new System.Drawing.Point(18, 130);
+            this.materialButton12.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton12.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton12.Name = "materialButton12";
+            this.materialButton12.Size = new System.Drawing.Size(164, 36);
+            this.materialButton12.TabIndex = 0;
+            this.materialButton12.Text = "Run Clean Script(Full)";
+            this.materialButton12.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+            this.materialButton12.UseAccentColor = true;
+            this.materialButton12.UseVisualStyleBackColor = true;
+            this.materialButton12.Click += new System.EventHandler(this.materialButton12_Click_1);
+            // 
+            // materialCard13
+            // 
+            this.materialCard13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard13.Controls.Add(this.pictureBox11);
+            this.materialCard13.Controls.Add(this.materialButton11);
+            this.materialCard13.Depth = 0;
+            this.materialCard13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard13.Location = new System.Drawing.Point(224, 31);
+            this.materialCard13.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard13.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard13.Name = "materialCard13";
+            this.materialCard13.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard13.Size = new System.Drawing.Size(200, 187);
+            this.materialCard13.TabIndex = 2;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::KeyBit_ID.Properties.Resources.console_96px;
+            this.pictureBox11.Location = new System.Drawing.Point(50, 21);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 1;
+            this.pictureBox11.TabStop = false;
+            // 
+            // materialButton11
+            // 
+            this.materialButton11.AutoSize = false;
+            this.materialButton11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton11.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton11.Depth = 0;
+            this.materialButton11.HighEmphasis = true;
+            this.materialButton11.Icon = null;
+            this.materialButton11.Location = new System.Drawing.Point(18, 130);
+            this.materialButton11.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton11.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton11.Name = "materialButton11";
+            this.materialButton11.Size = new System.Drawing.Size(164, 36);
+            this.materialButton11.TabIndex = 0;
+            this.materialButton11.Text = "Run Clean Script(Basic)";
+            this.materialButton11.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+            this.materialButton11.UseAccentColor = true;
+            this.materialButton11.UseVisualStyleBackColor = true;
+            this.materialButton11.Click += new System.EventHandler(this.materialButton11_Click_1);
+            // 
+            // materialCard12
+            // 
+            this.materialCard12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard12.Controls.Add(this.pictureBox10);
+            this.materialCard12.Controls.Add(this.materialButton10);
+            this.materialCard12.Depth = 0;
+            this.materialCard12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard12.Location = new System.Drawing.Point(14, 31);
+            this.materialCard12.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard12.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard12.Name = "materialCard12";
+            this.materialCard12.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard12.Size = new System.Drawing.Size(200, 187);
+            this.materialCard12.TabIndex = 0;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::KeyBit_ID.Properties.Resources.automation_96px;
+            this.pictureBox10.Location = new System.Drawing.Point(50, 21);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 1;
+            this.pictureBox10.TabStop = false;
+            // 
+            // materialButton10
+            // 
+            this.materialButton10.AutoSize = false;
+            this.materialButton10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton10.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton10.Depth = 0;
+            this.materialButton10.HighEmphasis = true;
+            this.materialButton10.Icon = null;
+            this.materialButton10.Location = new System.Drawing.Point(18, 130);
+            this.materialButton10.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton10.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton10.Name = "materialButton10";
+            this.materialButton10.Size = new System.Drawing.Size(164, 36);
+            this.materialButton10.TabIndex = 0;
+            this.materialButton10.Text = "Run GodMode";
+            this.materialButton10.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+            this.materialButton10.UseAccentColor = true;
+            this.materialButton10.UseVisualStyleBackColor = true;
+            this.materialButton10.Click += new System.EventHandler(this.materialButton10_Click_1);
+            // 
             // tabPage3
             // 
             this.tabPage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -2844,17 +3123,25 @@ namespace KeyBit_ID.Forms
             // 
             this.materialLabel14.AutoSize = true;
             this.materialLabel14.Depth = 0;
-            this.materialLabel14.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel14.Location = new System.Drawing.Point(73, 199);
+            this.materialLabel14.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel14.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.materialLabel14.Location = new System.Drawing.Point(17, 14);
             this.materialLabel14.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel14.Name = "materialLabel14";
-            this.materialLabel14.Size = new System.Drawing.Size(97, 19);
+            this.materialLabel14.Size = new System.Drawing.Size(168, 24);
             this.materialLabel14.TabIndex = 1;
-            this.materialLabel14.Text = "Coming Soon";
+            this.materialLabel14.Text = "Advanced Settings";
             // 
             // materialCard6
             // 
             this.materialCard6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard6.Controls.Add(this.pictureBox9);
+            this.materialCard6.Controls.Add(this.materialLabel23);
+            this.materialCard6.Controls.Add(this.materialSwitch1);
+            this.materialCard6.Controls.Add(this.materialCheckbox1);
+            this.materialCard6.Controls.Add(this.materialComboBox2);
+            this.materialCard6.Controls.Add(this.pictureBox8);
+            this.materialCard6.Controls.Add(this.materialLabel22);
             this.materialCard6.Controls.Add(this.materialLabel13);
             this.materialCard6.Depth = 0;
             this.materialCard6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -2866,17 +3153,125 @@ namespace KeyBit_ID.Forms
             this.materialCard6.Size = new System.Drawing.Size(243, 416);
             this.materialCard6.TabIndex = 0;
             // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackgroundImage = global::KeyBit_ID.Properties.Resources.paint_roller_96px;
+            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox9.Image = global::KeyBit_ID.Properties.Resources.user_account_96px;
+            this.pictureBox9.Location = new System.Drawing.Point(21, 187);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 8;
+            this.pictureBox9.TabStop = false;
+            // 
+            // materialLabel23
+            // 
+            this.materialLabel23.AutoSize = true;
+            this.materialLabel23.Depth = 0;
+            this.materialLabel23.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel23.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle2;
+            this.materialLabel23.Location = new System.Drawing.Point(57, 194);
+            this.materialLabel23.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel23.Name = "materialLabel23";
+            this.materialLabel23.Size = new System.Drawing.Size(109, 17);
+            this.materialLabel23.TabIndex = 7;
+            this.materialLabel23.Text = "Account Settings";
+            // 
+            // materialSwitch1
+            // 
+            this.materialSwitch1.AutoSize = true;
+            this.materialSwitch1.Depth = 0;
+            this.materialSwitch1.Location = new System.Drawing.Point(21, 138);
+            this.materialSwitch1.Margin = new System.Windows.Forms.Padding(0);
+            this.materialSwitch1.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialSwitch1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialSwitch1.Name = "materialSwitch1";
+            this.materialSwitch1.Ripple = true;
+            this.materialSwitch1.Size = new System.Drawing.Size(187, 37);
+            this.materialSwitch1.TabIndex = 6;
+            this.materialSwitch1.Text = "Enable Dark Mode";
+            this.materialSwitch1.UseVisualStyleBackColor = true;
+            // 
+            // materialCheckbox1
+            // 
+            this.materialCheckbox1.AutoSize = true;
+            this.materialCheckbox1.Checked = true;
+            this.materialCheckbox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.materialCheckbox1.Depth = 0;
+            this.materialCheckbox1.Location = new System.Drawing.Point(14, 220);
+            this.materialCheckbox1.Margin = new System.Windows.Forms.Padding(0);
+            this.materialCheckbox1.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.materialCheckbox1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCheckbox1.Name = "materialCheckbox1";
+            this.materialCheckbox1.Ripple = true;
+            this.materialCheckbox1.Size = new System.Drawing.Size(215, 37);
+            this.materialCheckbox1.TabIndex = 5;
+            this.materialCheckbox1.Text = "Require Master Password";
+            this.materialCheckbox1.UseVisualStyleBackColor = true;
+            // 
+            // materialComboBox2
+            // 
+            this.materialComboBox2.AutoResize = false;
+            this.materialComboBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBox2.Depth = 0;
+            this.materialComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBox2.DropDownHeight = 174;
+            this.materialComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBox2.DropDownWidth = 121;
+            this.materialComboBox2.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBox2.FormattingEnabled = true;
+            this.materialComboBox2.Hint = "Select a theme color";
+            this.materialComboBox2.IntegralHeight = false;
+            this.materialComboBox2.ItemHeight = 43;
+            this.materialComboBox2.Items.AddRange(new object[] {
+            "blue",
+            "red",
+            "green"});
+            this.materialComboBox2.Location = new System.Drawing.Point(21, 86);
+            this.materialComboBox2.MaxDropDownItems = 4;
+            this.materialComboBox2.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBox2.Name = "materialComboBox2";
+            this.materialComboBox2.Size = new System.Drawing.Size(205, 49);
+            this.materialComboBox2.StartIndex = 0;
+            this.materialComboBox2.TabIndex = 4;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackgroundImage = global::KeyBit_ID.Properties.Resources.paint_roller_96px;
+            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox8.Location = new System.Drawing.Point(21, 50);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox8.TabIndex = 2;
+            this.pictureBox8.TabStop = false;
+            // 
+            // materialLabel22
+            // 
+            this.materialLabel22.AutoSize = true;
+            this.materialLabel22.Depth = 0;
+            this.materialLabel22.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel22.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle2;
+            this.materialLabel22.Location = new System.Drawing.Point(57, 57);
+            this.materialLabel22.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel22.Name = "materialLabel22";
+            this.materialLabel22.Size = new System.Drawing.Size(102, 17);
+            this.materialLabel22.TabIndex = 1;
+            this.materialLabel22.Text = "Theme Settings";
+            // 
             // materialLabel13
             // 
             this.materialLabel13.AutoSize = true;
             this.materialLabel13.Depth = 0;
-            this.materialLabel13.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel13.Location = new System.Drawing.Point(73, 199);
+            this.materialLabel13.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel13.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.materialLabel13.Location = new System.Drawing.Point(17, 14);
             this.materialLabel13.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel13.Name = "materialLabel13";
-            this.materialLabel13.Size = new System.Drawing.Size(97, 19);
+            this.materialLabel13.Size = new System.Drawing.Size(150, 24);
             this.materialLabel13.TabIndex = 0;
-            this.materialLabel13.Text = "Coming Soon";
+            this.materialLabel13.Text = "General Settings";
             // 
             // tabPage4
             // 
@@ -2907,7 +3302,7 @@ namespace KeyBit_ID.Forms
             this.materialButton7.Depth = 0;
             this.materialButton7.HighEmphasis = true;
             this.materialButton7.Icon = null;
-            this.materialButton7.Location = new System.Drawing.Point(35, 200);
+            this.materialButton7.Location = new System.Drawing.Point(35, 203);
             this.materialButton7.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton7.Name = "materialButton7";
@@ -2928,7 +3323,7 @@ namespace KeyBit_ID.Forms
             this.materialButton6.Depth = 0;
             this.materialButton6.HighEmphasis = true;
             this.materialButton6.Icon = null;
-            this.materialButton6.Location = new System.Drawing.Point(199, 159);
+            this.materialButton6.Location = new System.Drawing.Point(199, 153);
             this.materialButton6.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton6.Name = "materialButton6";
@@ -2949,7 +3344,7 @@ namespace KeyBit_ID.Forms
             this.materialButton5.Depth = 0;
             this.materialButton5.HighEmphasis = true;
             this.materialButton5.Icon = null;
-            this.materialButton5.Location = new System.Drawing.Point(35, 159);
+            this.materialButton5.Location = new System.Drawing.Point(35, 153);
             this.materialButton5.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton5.Name = "materialButton5";
@@ -3211,6 +3606,7 @@ namespace KeyBit_ID.Forms
             this.drawerImages.Images.SetKeyName(3, "settings_32px.png");
             this.drawerImages.Images.SetKeyName(4, "dashboard_48px.png");
             this.drawerImages.Images.SetKeyName(5, "dashboard_64px.png");
+            this.drawerImages.Images.SetKeyName(6, "full_tool_storage_box_64px.png");
             // 
             // materialDrawer1
             // 
@@ -3309,6 +3705,51 @@ namespace KeyBit_ID.Forms
             this.vaultCheck.Enabled = true;
             this.vaultCheck.Tick += new System.EventHandler(this.VaultCheck_Tick);
             // 
+            // materialCard18
+            // 
+            this.materialCard18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard18.Controls.Add(this.pictureBox16);
+            this.materialCard18.Controls.Add(this.materialButton16);
+            this.materialCard18.Depth = 0;
+            this.materialCard18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard18.Location = new System.Drawing.Point(224, 227);
+            this.materialCard18.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard18.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard18.Name = "materialCard18";
+            this.materialCard18.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard18.Size = new System.Drawing.Size(200, 187);
+            this.materialCard18.TabIndex = 7;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Image = global::KeyBit_ID.Properties.Resources.hdd_96px;
+            this.pictureBox16.Location = new System.Drawing.Point(50, 21);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox16.TabIndex = 1;
+            this.pictureBox16.TabStop = false;
+            // 
+            // materialButton16
+            // 
+            this.materialButton16.AutoSize = false;
+            this.materialButton16.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton16.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton16.Depth = 0;
+            this.materialButton16.HighEmphasis = true;
+            this.materialButton16.Icon = null;
+            this.materialButton16.Location = new System.Drawing.Point(18, 130);
+            this.materialButton16.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton16.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton16.Name = "materialButton16";
+            this.materialButton16.Size = new System.Drawing.Size(164, 36);
+            this.materialButton16.TabIndex = 0;
+            this.materialButton16.Text = "Run  CheckDisk Script";
+            this.materialButton16.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+            this.materialButton16.UseAccentColor = true;
+            this.materialButton16.UseVisualStyleBackColor = true;
+            this.materialButton16.Click += new System.EventHandler(this.materialButton16_Click);
+            // 
             // MainWindow
             // 
             this.AcceptButton = this.btnMaster;
@@ -3355,31 +3796,23 @@ namespace KeyBit_ID.Forms
             this.materialCard10.ResumeLayout(false);
             this.materialCard10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            this.materialCard15.ResumeLayout(false);
-            this.materialCard15.PerformLayout();
-            this.materialCard14.ResumeLayout(false);
-            this.materialCard14.PerformLayout();
+            this.materialCard11.ResumeLayout(false);
+            this.materialCard11.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.circularGauge3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageIndicatorComponent4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.labelComponent4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleRangeBarComponent4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleComponent4)).EndInit();
-            this.materialCard13.ResumeLayout(false);
-            this.materialCard13.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.circularGauge2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imageIndicatorComponent3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.labelComponent3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.arcScaleRangeBarComponent3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.arcScaleComponent3)).EndInit();
-            this.materialCard12.ResumeLayout(false);
-            this.materialCard12.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.circularGauge1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageIndicatorComponent2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.labelComponent2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleRangeBarComponent2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.arcScaleComponent2)).EndInit();
-            this.materialCard11.ResumeLayout(false);
-            this.materialCard11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.circularGauge2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageIndicatorComponent3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.labelComponent3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.arcScaleRangeBarComponent3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.arcScaleComponent3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.circularGauge14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageIndicatorComponent1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.labelComponent1)).EndInit();
@@ -3410,11 +3843,26 @@ namespace KeyBit_ID.Forms
             this.tabPage6.ResumeLayout(false);
             this.tabPage7.ResumeLayout(false);
             this.tabPage8.ResumeLayout(false);
+            this.tabPage13.ResumeLayout(false);
+            this.materialCard17.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            this.materialCard16.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            this.materialCard15.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            this.materialCard14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            this.materialCard13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            this.materialCard12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.materialCard7.ResumeLayout(false);
             this.materialCard7.PerformLayout();
             this.materialCard6.ResumeLayout(false);
             this.materialCard6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             this.materialCard9.ResumeLayout(false);
@@ -3428,6 +3876,8 @@ namespace KeyBit_ID.Forms
             this.materialCard2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
+            this.materialCard18.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3654,7 +4104,6 @@ namespace KeyBit_ID.Forms
         private MaterialSkin.Controls.MaterialTextBox tbMaster;
         private System.Windows.Forms.Timer vaultCheck;
         private MaterialSkin.Controls.MaterialLabel materialLabel14;
-        private MaterialSkin.Controls.MaterialLabel materialLabel13;
         private System.Windows.Forms.Panel panel1;
         private DevExpress.XtraGauges.Win.GaugeControl gaugeControl1;
         private DevExpress.XtraGauges.Win.Gauges.Circular.CircularGauge circularGauge14;
@@ -3664,7 +4113,6 @@ namespace KeyBit_ID.Forms
         private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent arcScaleComponent1;
         private System.Windows.Forms.Panel panel2;
         private MaterialSkin.Controls.MaterialCard materialCard10;
-        private MaterialSkin.Controls.MaterialCard materialCard12;
         private MaterialSkin.Controls.MaterialLabel materialLabel15;
         private DevExpress.XtraGauges.Win.GaugeControl gaugeControl2;
         private DevExpress.XtraGauges.Win.Gauges.Circular.CircularGauge circularGauge1;
@@ -3674,7 +4122,6 @@ namespace KeyBit_ID.Forms
         private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent arcScaleComponent2;
         private MaterialSkin.Controls.MaterialCard materialCard11;
         private MaterialSkin.Controls.MaterialLabel materialLabel12;
-        private MaterialSkin.Controls.MaterialCard materialCard13;
         private MaterialSkin.Controls.MaterialLabel materialLabel16;
         private DevExpress.XtraGauges.Win.GaugeControl gaugeControl3;
         private MaterialSkin.Controls.MaterialLabel materialLabel19;
@@ -3687,7 +4134,6 @@ namespace KeyBit_ID.Forms
         private DevExpress.XtraGauges.Win.Base.LabelComponent labelComponent3;
         private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleRangeBarComponent arcScaleRangeBarComponent3;
         private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent arcScaleComponent3;
-        private MaterialSkin.Controls.MaterialCard materialCard14;
         private MaterialSkin.Controls.MaterialLabel materialLabel20;
         private MaterialSkin.Controls.MaterialLabel materialLabel21;
         private DevExpress.XtraGauges.Win.GaugeControl gaugeControl4;
@@ -3696,12 +4142,41 @@ namespace KeyBit_ID.Forms
         private DevExpress.XtraGauges.Win.Base.LabelComponent labelComponent4;
         private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleRangeBarComponent arcScaleRangeBarComponent4;
         private DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent arcScaleComponent4;
-        private MaterialSkin.Controls.MaterialCard materialCard15;
         private System.Windows.Forms.Label websiteTotal;
         private System.Windows.Forms.Label totalCounts;
         private System.Windows.Forms.Label otherTotal;
         private System.Windows.Forms.Label cardTotal;
         private System.Windows.Forms.Label bankTotal;
         private MaterialSkin.Controls.MaterialButton materialButton9;
+        private MaterialSkin.Controls.MaterialLabel materialLabel13;
+        private System.Windows.Forms.TabPage tabPage13;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private MaterialSkin.Controls.MaterialLabel materialLabel22;
+        private MaterialSkin.Controls.MaterialSwitch materialSwitch1;
+        private MaterialSkin.Controls.MaterialCheckbox materialCheckbox1;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox2;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private MaterialSkin.Controls.MaterialLabel materialLabel23;
+        private MaterialSkin.Controls.MaterialCard materialCard12;
+        private MaterialSkin.Controls.MaterialButton materialButton10;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private MaterialSkin.Controls.MaterialCard materialCard13;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private MaterialSkin.Controls.MaterialButton materialButton11;
+        private MaterialSkin.Controls.MaterialCard materialCard14;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private MaterialSkin.Controls.MaterialButton materialButton12;
+        private MaterialSkin.Controls.MaterialCard materialCard15;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private MaterialSkin.Controls.MaterialButton materialButton13;
+        private MaterialSkin.Controls.MaterialCard materialCard16;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private MaterialSkin.Controls.MaterialButton materialButton14;
+        private MaterialSkin.Controls.MaterialCard materialCard17;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private MaterialSkin.Controls.MaterialButton materialButton15;
+        private MaterialSkin.Controls.MaterialCard materialCard18;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private MaterialSkin.Controls.MaterialButton materialButton16;
     }
 }

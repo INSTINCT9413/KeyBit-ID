@@ -113,6 +113,16 @@ namespace KeyBit_ID.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap automation_96px {
+            get {
+                object obj = ResourceManager.GetObject("automation_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bank_building_96px {
             get {
                 object obj = ResourceManager.GetObject("bank_building_96px", resourceCulture);
@@ -156,6 +166,26 @@ namespace KeyBit_ID.Properties {
         internal static System.Drawing.Bitmap cloud_checked_96px {
             get {
                 object obj = ResourceManager.GetObject("cloud_checked_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap console_96px {
+            get {
+                object obj = ResourceManager.GetObject("console_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap file_96px {
+            get {
+                object obj = ResourceManager.GetObject("file_96px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,6 +313,26 @@ namespace KeyBit_ID.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap paint_roller_52px {
+            get {
+                object obj = ResourceManager.GetObject("paint_roller_52px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap paint_roller_96px {
+            get {
+                object obj = ResourceManager.GetObject("paint_roller_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap processor_96px {
             get {
                 object obj = ResourceManager.GetObject("processor_96px", resourceCulture);
@@ -366,6 +416,16 @@ namespace KeyBit_ID.Properties {
         internal static System.Drawing.Bitmap website_96px {
             get {
                 object obj = ResourceManager.GetObject("website_96px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap website_96pxline {
+            get {
+                object obj = ResourceManager.GetObject("website_96pxline", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

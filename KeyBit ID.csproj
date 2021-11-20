@@ -112,6 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\QueryOperations.cs" />
+    <Compile Include="Classes\ThreadStarter.cs" />
     <Compile Include="Classes\UserBackup.cs" />
     <Compile Include="Classes\UserDelete.cs" />
     <Compile Include="Classes\UserID.cs" />
@@ -274,6 +275,12 @@
     <None Include="KeyBit ID Images\processor_96px.png" />
     <None Include="KeyBit ID Images\networking_manager_96px.png" />
     <None Include="KeyBit ID Images\hdd_96px.png" />
+    <None Include="KeyBit ID Images\paint_roller_96px.png" />
+    <None Include="KeyBit ID Images\paint_roller_52px.png" />
+    <None Include="KeyBit ID Images\automation_96px.png" />
+    <None Include="KeyBit ID Images\console_96px.png" />
+    <None Include="KeyBit ID Images\website_96pxline.png" />
+    <None Include="KeyBit ID Images\file_96px.png" />
     <Content Include="KeyStore.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

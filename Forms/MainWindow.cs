@@ -27,6 +27,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace KeyBit_ID.Forms
@@ -37,6 +38,8 @@ namespace KeyBit_ID.Forms
         readonly Wait thread = new Wait();
 
         QueryOperations QO = new QueryOperations();
+
+        readonly ThreadStarter TS = new ThreadStarter();
 
         // create a string and set it to the updater path
         // this is a program that is created in Advanced Installer program (NOT INCLUDED)
@@ -345,15 +348,13 @@ namespace KeyBit_ID.Forms
             // enable account button
             materialButton4.Visible = true;
             materialCard11.Visible = true;
-            materialCard12.Visible = true;
-            materialCard13.Visible = true;
-            materialCard14.Visible = true;
+            
 
-            materialCard15.Visible = true;
-
-
-            Thread dashThread = new Thread(new ThreadStart(UnlockDashThread));
-            dashThread.Start();
+            // start thread by passing what method to run on new thread
+            TS.TSThread(UnlockDashThread);
+            // old below
+            //Thread dashThread = new Thread(new ThreadStart(UnlockDashThread));
+            //dashThread.Start();
 
             DataTable websites = this.keyStoreDataSet.Tables["Websites"];
             QO.queryWebCount(this.keyStoreDataSet, websites);
@@ -371,7 +372,7 @@ namespace KeyBit_ID.Forms
             totalCounts.Text = "Total Records in vault: " + QO.TotalCount();
 
         }
-        private void UnlockDashThread()
+        public void UnlockDashThread()
         {
             // variable to hold network name
             string nicname = null;
@@ -393,6 +394,12 @@ namespace KeyBit_ID.Forms
                     }
                 }
             }
+
+            // reset component progress
+            arcScaleComponent1.Value = 0;
+            arcScaleComponent2.Value = 0;
+            arcScaleComponent3.Value = 0;
+            arcScaleComponent4.Value = 0;
 
             // peformance counters
             PerformanceCounter pcCPU = new PerformanceCounter("Processor Information", "% Processor Time", "_Total");
@@ -508,6 +515,162 @@ namespace KeyBit_ID.Forms
             else
             {
 
+            }
+        }
+
+        private void materialButton10_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!Directory.Exists(Application.StartupPath + @"\data\.{ED7BA470-8E54-465E-825C-99712043E01C}"))
+                {
+                    Directory.CreateDirectory(Application.StartupPath + @"\data\.{ED7BA470-8E54-465E-825C-99712043E01C}");
+                }
+
+            }
+            catch
+            {
+                MaterialMessageBox.Show("KeyBit ID could not create and run the 'GodMode' folder. You may need to run KeyBit ID as an administrator and try again!", "Administrative Error", MessageBoxButtons.OK, MessageBoxIcon.Warning, false);
+            }
+            finally
+            {
+                Process.Start(Application.StartupPath + @"\data\.{ED7BA470-8E54-465E-825C-99712043E01C}");
+            }
+        }
+
+        private void materialButton11_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!File.Exists(Application.StartupPath + @"\data\CleanUp.bat"))
+                {
+                    //File.Create(Application.StartupPath + @"\data\cleanup.bat");
+                    string commands = "@echo off\npowershell -command \"Clear-RecycleBin -force -ErrorAction:Ignore\nCLEANMGR /sagerun:n";
+                    using (StreamWriter writer = new StreamWriter(Application.StartupPath + @"\data\CleanUp.bat"))
+                    {
+                        writer.WriteLine(commands);
+                        writer.Flush();
+                        writer.Close();
+
+
+                        
+                    }
+
+                }
+
+            }
+            catch(Exception ee)
+            {
+                MaterialMessageBox.Show("KeyBit ID could not create and run the 'Clean Script'. You may need to run KeyBit ID as an administrator and try again! \n "+ ee.Message, "Administrative Error", MessageBoxButtons.OK, MessageBoxIcon.Warning, false);
+            }
+            finally
+            {
+                Process clean = new Process();
+                clean.StartInfo.FileName = Application.StartupPath + @"\data\CleanUp.bat";
+                clean.StartInfo.UseShellExecute = true;
+                clean.StartInfo.Verb = "runas";
+                clean.Start();
+            }
+        }
+
+        private void materialButton13_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.Windows) + @"\System32\dfrgui.exe"))
+                {
+                    Process cleanfull = new Process();
+                    cleanfull.StartInfo.FileName = Environment.GetFolderPath(Environment.SpecialFolder.Windows) + @"\System32\dfrgui.exe";
+                    
+                    cleanfull.Start();
+                }
+
+            }
+            catch (Exception ee)
+            {
+                MaterialMessageBox.Show("KeyBit ID could not create and run the 'Defrag Script'. You may need to run KeyBit ID as an administrator and try again! \n " + ee.Message, "Administrative Error", MessageBoxButtons.OK, MessageBoxIcon.Warning, false);
+            }
+        }
+
+        private void materialButton12_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                if (File.Exists(Application.StartupPath + @"\data\System Clean.bat"))
+                {
+                    Process cleanfull = new Process();
+                    cleanfull.StartInfo.FileName = Application.StartupPath + @"\data\System Clean.bat";
+                    cleanfull.StartInfo.UseShellExecute = true;
+                    cleanfull.StartInfo.Verb = "runas";
+                    cleanfull.Start();
+                }
+
+            }
+            catch (Exception ee)
+            {
+                MaterialMessageBox.Show("KeyBit ID could not create and run the 'Clean Script'. You may need to run KeyBit ID as an administrator and try again! \n " + ee.Message, "Administrative Error", MessageBoxButtons.OK, MessageBoxIcon.Warning, false);
+            }
+  
+        }
+
+        private void materialButton14_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (File.Exists(Application.StartupPath + @"\data\Reset.bat"))
+                {
+                    Process cleanfull = new Process();
+                    cleanfull.StartInfo.FileName = Application.StartupPath + @"\data\Reset.bat";
+                    cleanfull.StartInfo.UseShellExecute = true;
+                    cleanfull.StartInfo.Verb = "runas";
+                    cleanfull.Start();
+                }
+
+            }
+            catch (Exception ee)
+            {
+                MaterialMessageBox.Show("KeyBit ID could not create and run the 'Reset Script'. You may need to run KeyBit ID as an administrator and try again! \n " + ee.Message, "Administrative Error", MessageBoxButtons.OK, MessageBoxIcon.Warning, false);
+            }
+
+        }
+
+        private void materialButton15_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (File.Exists(Application.StartupPath + @"\data\System File Checker.bat"))
+                {
+                    Process cleanfull = new Process();
+                    cleanfull.StartInfo.FileName = Application.StartupPath + @"\data\System File Checker.bat";
+                    cleanfull.StartInfo.UseShellExecute = true;
+                    cleanfull.StartInfo.Verb = "runas";
+                    cleanfull.Start();
+                }
+
+            }
+            catch (Exception ee)
+            {
+                MaterialMessageBox.Show("KeyBit ID could not create and run the 'SFC Script'. You may need to run KeyBit ID as an administrator and try again! \n " + ee.Message, "Administrative Error", MessageBoxButtons.OK, MessageBoxIcon.Warning, false);
+            }
+        }
+
+        private void materialButton16_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (File.Exists(Application.StartupPath + @"\data\CHKDSK.bat"))
+                {
+                    Process cleanfull = new Process();
+                    cleanfull.StartInfo.FileName = Application.StartupPath + @"\data\CHKDSK.bat";
+                    cleanfull.StartInfo.UseShellExecute = true;
+                    cleanfull.StartInfo.Verb = "runas";
+                    cleanfull.Start();
+                }
+
+            }
+            catch (Exception ee)
+            {
+                MaterialMessageBox.Show("KeyBit ID could not create and run the 'CHKDSK Script'. You may need to run KeyBit ID as an administrator and try again! \n " + ee.Message, "Administrative Error", MessageBoxButtons.OK, MessageBoxIcon.Warning, false);
             }
         }
     }

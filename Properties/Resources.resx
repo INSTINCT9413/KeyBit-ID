@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="automation_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\KeyBit ID Images\automation_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bank_building_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\KeyBit ID Images\bank_building_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -130,14 +133,17 @@
   <data name="box_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\KeyBit ID Images\box_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user_account_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\KeyBit ID Images\user_account_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="paint_roller_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\KeyBit ID Images\paint_roller_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="networking_manager_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\KeyBit ID Images\networking_manager_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="system_task_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\KeyBit ID Images\system_task_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="key_512px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\KeyBit ID Images\key_512px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="website_96pxline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\KeyBit ID Images\website_96pxline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="box_important_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\KeyBit ID Images\box_important_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="loading_animation323" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\loading_animation323.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,17 +166,17 @@
   <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\KeyBit ID Images\icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="282" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\282.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="paint_roller_52px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\KeyBit ID Images\paint_roller_52px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloud_checked_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\KeyBit ID Images\cloud_checked_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="07-loader" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\07-loader.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\KeyBit ID Images\icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="system_task_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\KeyBit ID Images\system_task_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="key_125px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\KeyBit ID Images\key_125px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -180,6 +186,12 @@
   </data>
   <data name="key_100px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\KeyBit ID Images\key_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_account_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\KeyBit ID Images\user_account_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="link_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\KeyBit ID Images\link_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="website_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\KeyBit ID Images\website_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,16 +211,22 @@
   <data name="add_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\KeyBit ID Images\add_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="box_important_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\KeyBit ID Images\box_important_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cloud_checked_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\KeyBit ID Images\cloud_checked_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="link_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\KeyBit ID Images\link_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="282" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\282.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hdd_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\KeyBit ID Images\hdd_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="console_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\KeyBit ID Images\console_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="networking_manager_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\KeyBit ID Images\networking_manager_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_512px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\KeyBit ID Images\key_512px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\KeyBit ID Images\file_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
