@@ -1,10 +1,5 @@
-﻿using KeyBit_ID.Forms;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace KeyBit_ID.Classes
 {
@@ -12,7 +7,9 @@ namespace KeyBit_ID.Classes
     {
         public void TSThread(Action methodName)
         {
+            // Create a new instance of a thread with the methods name (methodName)
             Thread thread = new Thread(new ThreadStart(methodName));
+            // Start the new thread
             thread.Start();
         }
     }

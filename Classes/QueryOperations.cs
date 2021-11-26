@@ -153,6 +153,8 @@ namespace KeyBit_ID.Classes
             dg.Dock = DockStyle.Fill;
 
         }
+        // method to get total count of all items in each table
+        // generic method, uses interface IEnumerable<int>
         public int TotalCount()
         {
             // use of LINQ
@@ -161,6 +163,7 @@ namespace KeyBit_ID.Classes
             // data source is number of counts that each table has.
             int[] counts = new int[] { webCount, bankCount, cardCount, otherCount };
             // define the expression
+            // use of generic
             IEnumerable<int> countQuery =
             from count in counts
             select count;

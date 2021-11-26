@@ -26,8 +26,6 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace KeyBit_ID.Forms
@@ -36,9 +34,9 @@ namespace KeyBit_ID.Forms
     {
         // instanatiate a new Wait()
         readonly Wait thread = new Wait();
-
+        // create new instance of QueryOperations
         QueryOperations QO = new QueryOperations();
-
+        // create new instance of ThreadStarter
         readonly ThreadStarter TS = new ThreadStarter();
 
         // create a string and set it to the updater path
@@ -342,15 +340,17 @@ namespace KeyBit_ID.Forms
             else
             {
                 // message box error
-                MaterialMessageBox.Show("Error", "Error", false);
+                MaterialMessageBox.Show("Error: The password you entered does not look correct", "Incorrect Master Password!",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error, false);
             }
 
             // enable account button
             materialButton4.Visible = true;
             materialCard11.Visible = true;
-            
+
 
             // start thread by passing what method to run on new thread
+            // implementation of the ThreadStarter Class
             TS.TSThread(UnlockDashThread);
             // old below
             //Thread dashThread = new Thread(new ThreadStart(UnlockDashThread));
@@ -430,6 +430,7 @@ namespace KeyBit_ID.Forms
             }
         }
 
+        // helps prevent unnecessary saving of the vault when it can't be seen or accessed yet.
         private void VaultCheck_Tick(object sender, EventArgs e)
         {
             // if selected tab matches tabpage 2
@@ -444,12 +445,13 @@ namespace KeyBit_ID.Forms
             }
             else
             {
-                // hid button for saving vault
+                // hide button for saving vault
                 materialButton8.Visible = false;
 
             }
         }
 
+        // method to calculate different sizes ex. bytes, kb, mb etc.
         static string SizeSuffix(Int64 value, int decimalPlaces = 1)
         {
             // if decimals < 0
@@ -522,8 +524,10 @@ namespace KeyBit_ID.Forms
         {
             try
             {
+                // if directory does not exist then create it
                 if (!Directory.Exists(Application.StartupPath + @"\data\.{ED7BA470-8E54-465E-825C-99712043E01C}"))
                 {
+                    // create the directory (Widnows GodMode)
                     Directory.CreateDirectory(Application.StartupPath + @"\data\.{ED7BA470-8E54-465E-825C-99712043E01C}");
                 }
 
@@ -534,6 +538,8 @@ namespace KeyBit_ID.Forms
             }
             finally
             {
+                // since we check for the directory and also if it is not there, we created it, finally run the directory.
+                // this runs the folder which opens up Windows GodMode feature
                 Process.Start(Application.StartupPath + @"\data\.{ED7BA470-8E54-465E-825C-99712043E01C}");
             }
         }
@@ -542,33 +548,46 @@ namespace KeyBit_ID.Forms
         {
             try
             {
+                // if file does not exist create the file
                 if (!File.Exists(Application.StartupPath + @"\data\CleanUp.bat"))
                 {
+                    // OLD
                     //File.Create(Application.StartupPath + @"\data\cleanup.bat");
+
+                    // create a string called commands with all the commands inside
                     string commands = "@echo off\npowershell -command \"Clear-RecycleBin -force -ErrorAction:Ignore\nCLEANMGR /sagerun:n";
+                    // using a stream writer, write the string commands to the file.
                     using (StreamWriter writer = new StreamWriter(Application.StartupPath + @"\data\CleanUp.bat"))
                     {
+                        // write to file
                         writer.WriteLine(commands);
+                        // flush the data
                         writer.Flush();
+                        // close the stream
                         writer.Close();
 
 
-                        
+
                     }
 
                 }
 
             }
-            catch(Exception ee)
+            catch (Exception ee)
             {
-                MaterialMessageBox.Show("KeyBit ID could not create and run the 'Clean Script'. You may need to run KeyBit ID as an administrator and try again! \n "+ ee.Message, "Administrative Error", MessageBoxButtons.OK, MessageBoxIcon.Warning, false);
+                MaterialMessageBox.Show("KeyBit ID could not create and run the 'Clean Script'. You may need to run KeyBit ID as an administrator and try again! \n " + ee.Message, "Administrative Error", MessageBoxButtons.OK, MessageBoxIcon.Warning, false);
             }
             finally
             {
+                // finally we create a new process and execute the file
                 Process clean = new Process();
+                // set file to run
                 clean.StartInfo.FileName = Application.StartupPath + @"\data\CleanUp.bat";
+                // enable shell execute
                 clean.StartInfo.UseShellExecute = true;
+                // execute with admin privileges
                 clean.StartInfo.Verb = "runas";
+                // start the file, this case its a .bat script
                 clean.Start();
             }
         }
@@ -577,11 +596,14 @@ namespace KeyBit_ID.Forms
         {
             try
             {
+                // checks to see if the defrag UI version is present
                 if (File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.Windows) + @"\System32\dfrgui.exe"))
                 {
+                    // create a new process
                     Process cleanfull = new Process();
+                    // set file to run
                     cleanfull.StartInfo.FileName = Environment.GetFolderPath(Environment.SpecialFolder.Windows) + @"\System32\dfrgui.exe";
-                    
+                    // start the file
                     cleanfull.Start();
                 }
 
@@ -596,12 +618,18 @@ namespace KeyBit_ID.Forms
         {
             try
             {
+                // if file exists
                 if (File.Exists(Application.StartupPath + @"\data\System Clean.bat"))
                 {
+                    // create new process
                     Process cleanfull = new Process();
+                    // set file to run
                     cleanfull.StartInfo.FileName = Application.StartupPath + @"\data\System Clean.bat";
+                    // enable shell execute
                     cleanfull.StartInfo.UseShellExecute = true;
+                    // execute with admin privileges
                     cleanfull.StartInfo.Verb = "runas";
+                    // run the file
                     cleanfull.Start();
                 }
 
@@ -610,7 +638,7 @@ namespace KeyBit_ID.Forms
             {
                 MaterialMessageBox.Show("KeyBit ID could not create and run the 'Clean Script'. You may need to run KeyBit ID as an administrator and try again! \n " + ee.Message, "Administrative Error", MessageBoxButtons.OK, MessageBoxIcon.Warning, false);
             }
-  
+
         }
 
         private void materialButton14_Click(object sender, EventArgs e)
