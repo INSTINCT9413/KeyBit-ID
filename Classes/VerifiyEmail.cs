@@ -23,6 +23,10 @@ namespace KeyBit_ID.Classes
 {
     class VerifyEmail
     {
+        public VerifyEmail()
+        {
+
+        }
         // Method that accepts a string and reutrns a bool
         public static bool IsValidEmail(string email)
         {

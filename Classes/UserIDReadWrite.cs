@@ -30,6 +30,11 @@ namespace KeyBit_ID.Classes
     {
         // instantiate a new Wait()
         readonly Wait wait = new Wait();
+        public UserIDReadWrite()
+        {
+
+        }
+
         // Method WriteAccount()
         public void WriteAccount()
         {

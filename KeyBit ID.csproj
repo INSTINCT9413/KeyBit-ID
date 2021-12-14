@@ -112,6 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\QueryOperations.cs" />
+    <Compile Include="Classes\ThemeSelector.cs" />
     <Compile Include="Classes\ThreadStarter.cs" />
     <Compile Include="Classes\UserBackup.cs" />
     <Compile Include="Classes\UserDelete.cs" />

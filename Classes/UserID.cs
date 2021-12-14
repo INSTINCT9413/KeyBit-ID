@@ -24,7 +24,10 @@ namespace KeyBit_ID.Classes
         public static string Email { get; set; }
         public static string Password { get; set; }
         public static string MasterPassword { get; set; }
+        public UserID()
+        {
 
+        }
         //Method that returns the above vairables as a single string
         public static string UserInfo
         {

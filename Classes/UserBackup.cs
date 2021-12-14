@@ -34,6 +34,10 @@ namespace KeyBit_ID.Classes
 
         // variable for backup location
         readonly string BackupLocation = DataLocation + @"\backup\";
+        public UserBackup()
+        {
+
+        }
         // method to get account info
         public void GetAccountInfo()
         {

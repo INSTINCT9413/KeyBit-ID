@@ -32,7 +32,10 @@ namespace KeyBit_ID.Classes
         DataGrid dg = new DataGrid();
         // create a new connections string and point to the KeyStore file
         OleDbConnection con = new OleDbConnection("Provider=Microsoft.ACE.Oledb.12.0;Data Source=KeyStore.accdb");
+        public QueryOperations()
+        {
 
+        }
         public int queryWebCount(DataSet dataSet, DataTable dataTable)
         {
             // assign the input DataTable to the Websites table

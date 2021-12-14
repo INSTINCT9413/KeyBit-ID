@@ -44,6 +44,10 @@ namespace KeyBit_ID.Classes
             ENCRYPT,
             DECRYPT
         };
+        public UserIDEncrypt()
+        {
+
+        }
         // Method for getting the motherboard serial number
         public string GetHWID()
         {

@@ -31,56 +31,56 @@ namespace KeyBit_ID.Forms
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
-            System.Windows.Forms.ListViewItem listViewItem33 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "Horizon",
             "test@gmail.com",
             "test",
             "test123",
             "http://example.com",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem34 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "Horizon",
             "123@mail.com",
             "user4",
             "pass3432",
             "http://google.com",
             "this is another note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem35 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
             "Fifth Third Bank",
             "94395921",
             "74367548298348777",
             "john117",
             "password123",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem36 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "Chase Bank",
             "55194010",
             "3811105598134490",
             "jane004",
             "password94",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem37 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "Jacob W Brookhouse",
             "Debit Card",
             "9090909090909090",
             "000",
             "01 / 22",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem38 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "John A Doe",
             "Pre-Paid",
             "9090909090909090",
             "000",
             "09 / 23",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem39 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
             "Jane L Doe",
             "Credit Card",
             "9090909090909090",
             "000",
             "09 / 24",
             "this is a note"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem40 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
             "Instagram Keys",
             "1k6-g5G",
             "3H6-g99",
@@ -181,7 +181,6 @@ namespace KeyBit_ID.Forms
             this.gridColumn66 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.materialCard10 = new MaterialSkin.Controls.MaterialCard();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
@@ -189,6 +188,7 @@ namespace KeyBit_ID.Forms
             this.btnMaster = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel11 = new MaterialSkin.Controls.MaterialLabel();
             this.tbMaster = new MaterialSkin.Controls.MaterialTextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.materialCard11 = new MaterialSkin.Controls.MaterialCard();
             this.totalCounts = new System.Windows.Forms.Label();
             this.materialLabel20 = new MaterialSkin.Controls.MaterialLabel();
@@ -313,6 +313,9 @@ namespace KeyBit_ID.Forms
             this.materialDrawer2 = new MaterialSkin.Controls.MaterialDrawer();
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.materialCard18 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.materialButton16 = new MaterialSkin.Controls.MaterialButton();
             this.materialCard17 = new MaterialSkin.Controls.MaterialCard();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.materialButton15 = new MaterialSkin.Controls.MaterialButton();
@@ -378,9 +381,6 @@ namespace KeyBit_ID.Forms
             this.cardsTableAdapter = new KeyBit_ID.KeyStoreDataSetTableAdapters.CardsTableAdapter();
             this.otherTableAdapter = new KeyBit_ID.KeyStoreDataSetTableAdapters.OtherTableAdapter();
             this.vaultCheck = new System.Windows.Forms.Timer(this.components);
-            this.materialCard18 = new MaterialSkin.Controls.MaterialCard();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.materialButton16 = new MaterialSkin.Controls.MaterialButton();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.keyStoreDataSetBindingSource)).BeginInit();
@@ -403,10 +403,10 @@ namespace KeyBit_ID.Forms
             ((System.ComponentModel.ISupportInitialize)(this.gridView15)).BeginInit();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.materialCard10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel2.SuspendLayout();
             this.materialCard11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.circularGauge3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageIndicatorComponent4)).BeginInit();
@@ -451,6 +451,8 @@ namespace KeyBit_ID.Forms
             this.tabPage7.SuspendLayout();
             this.tabPage8.SuspendLayout();
             this.tabPage13.SuspendLayout();
+            this.materialCard18.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.materialCard17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.materialCard16.SuspendLayout();
@@ -477,8 +479,6 @@ namespace KeyBit_ID.Forms
             this.materialCard2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
-            this.materialCard18.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.SuspendLayout();
             // 
             // gridView2
@@ -548,7 +548,7 @@ namespace KeyBit_ID.Forms
             this.gridControl1.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(704, 392);
+            this.gridControl1.Size = new System.Drawing.Size(705, 392);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.UseEmbeddedNavigator = true;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -813,7 +813,7 @@ namespace KeyBit_ID.Forms
             this.gridControl3.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControl3.MainView = this.gridView12;
             this.gridControl3.Name = "gridControl3";
-            this.gridControl3.Size = new System.Drawing.Size(704, 392);
+            this.gridControl3.Size = new System.Drawing.Size(704, 389);
             this.gridControl3.TabIndex = 1;
             this.gridControl3.UseEmbeddedNavigator = true;
             this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -1064,7 +1064,7 @@ namespace KeyBit_ID.Forms
             this.gridControl4.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControl4.MainView = this.gridView16;
             this.gridControl4.Name = "gridControl4";
-            this.gridControl4.Size = new System.Drawing.Size(704, 392);
+            this.gridControl4.Size = new System.Drawing.Size(704, 389);
             this.gridControl4.TabIndex = 1;
             this.gridControl4.UseEmbeddedNavigator = true;
             this.gridControl4.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -1268,6 +1268,7 @@ namespace KeyBit_ID.Forms
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.panel1);
             this.tabPage1.Controls.Add(this.panel2);
             this.tabPage1.Controls.Add(this.materialCard5);
             this.tabPage1.Controls.Add(this.materialCard4);
@@ -1281,24 +1282,12 @@ namespace KeyBit_ID.Forms
             this.tabPage1.Text = "Dashboard";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // panel2
-            // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.Controls.Add(this.panel1);
-            this.panel2.Controls.Add(this.materialCard11);
-            this.panel2.Location = new System.Drawing.Point(22, 6);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(814, 436);
-            this.panel2.TabIndex = 8;
-            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.materialCard10);
-            this.panel1.Location = new System.Drawing.Point(10, 24);
+            this.panel1.Location = new System.Drawing.Point(6, -34);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(794, 389);
+            this.panel1.Size = new System.Drawing.Size(846, 513);
             this.panel1.TabIndex = 6;
             // 
             // materialCard10
@@ -1311,7 +1300,7 @@ namespace KeyBit_ID.Forms
             this.materialCard10.Controls.Add(this.tbMaster);
             this.materialCard10.Depth = 0;
             this.materialCard10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard10.Location = new System.Drawing.Point(218, 33);
+            this.materialCard10.Location = new System.Drawing.Point(244, 95);
             this.materialCard10.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard10.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard10.Name = "materialCard10";
@@ -1366,7 +1355,7 @@ namespace KeyBit_ID.Forms
             // 
             this.materialLabel11.AutoSize = true;
             this.materialLabel11.Depth = 0;
-            this.materialLabel11.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel11.Location = new System.Drawing.Point(36, 193);
             this.materialLabel11.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel11.Name = "materialLabel11";
@@ -1391,6 +1380,17 @@ namespace KeyBit_ID.Forms
             this.tbMaster.Text = "";
             this.tbMaster.TrailingIcon = null;
             this.tbMaster.UseTallSize = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Controls.Add(this.materialCard11);
+            this.panel2.Location = new System.Drawing.Point(22, 6);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(814, 436);
+            this.panel2.TabIndex = 8;
             // 
             // materialCard11
             // 
@@ -1424,7 +1424,6 @@ namespace KeyBit_ID.Forms
             this.materialCard11.Padding = new System.Windows.Forms.Padding(14);
             this.materialCard11.Size = new System.Drawing.Size(764, 213);
             this.materialCard11.TabIndex = 8;
-            this.materialCard11.Visible = false;
             // 
             // totalCounts
             // 
@@ -1489,7 +1488,7 @@ namespace KeyBit_ID.Forms
             this.materialLabel21.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.materialLabel21.AutoSize = true;
             this.materialLabel21.Depth = 0;
-            this.materialLabel21.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel21.Location = new System.Drawing.Point(463, 163);
             this.materialLabel21.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel21.Name = "materialLabel21";
@@ -1615,7 +1614,7 @@ namespace KeyBit_ID.Forms
             this.materialLabel15.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.materialLabel15.AutoSize = true;
             this.materialLabel15.Depth = 0;
-            this.materialLabel15.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel15.Location = new System.Drawing.Point(368, 163);
             this.materialLabel15.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel15.Name = "materialLabel15";
@@ -1720,7 +1719,7 @@ namespace KeyBit_ID.Forms
             this.materialLabel16.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.materialLabel16.AutoSize = true;
             this.materialLabel16.Depth = 0;
-            this.materialLabel16.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel16.Location = new System.Drawing.Point(648, 163);
             this.materialLabel16.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel16.Name = "materialLabel16";
@@ -1733,7 +1732,7 @@ namespace KeyBit_ID.Forms
             this.materialLabel12.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.materialLabel12.AutoSize = true;
             this.materialLabel12.Depth = 0;
-            this.materialLabel12.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel12.Location = new System.Drawing.Point(224, 163);
             this.materialLabel12.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel12.Name = "materialLabel12";
@@ -1942,7 +1941,7 @@ namespace KeyBit_ID.Forms
             // 
             this.materialLabel3.AutoSize = true;
             this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel3.Location = new System.Drawing.Point(87, 120);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
@@ -2004,7 +2003,7 @@ namespace KeyBit_ID.Forms
             // 
             this.materialLabel2.AutoSize = true;
             this.materialLabel2.Depth = 0;
-            this.materialLabel2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel2.Location = new System.Drawing.Point(64, 120);
             this.materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel2.Name = "materialLabel2";
@@ -2065,7 +2064,7 @@ namespace KeyBit_ID.Forms
             // 
             this.materialLabel1.AutoSize = true;
             this.materialLabel1.Depth = 0;
-            this.materialLabel1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel1.Location = new System.Drawing.Point(78, 120);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
@@ -2116,9 +2115,10 @@ namespace KeyBit_ID.Forms
             this.materialButton9.Size = new System.Drawing.Size(136, 48);
             this.materialButton9.TabIndex = 7;
             this.materialButton9.Text = "Query All";
-            this.materialButton9.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
-            this.materialButton9.UseAccentColor = true;
+            this.materialButton9.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.materialButton9.UseAccentColor = false;
             this.materialButton9.UseVisualStyleBackColor = true;
+            this.materialButton9.Visible = false;
             this.materialButton9.Click += new System.EventHandler(this.materialButton9_Click_1);
             // 
             // materialButton8
@@ -2137,8 +2137,8 @@ namespace KeyBit_ID.Forms
             this.materialButton8.Size = new System.Drawing.Size(137, 48);
             this.materialButton8.TabIndex = 5;
             this.materialButton8.Text = "Save Vault";
-            this.materialButton8.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
-            this.materialButton8.UseAccentColor = true;
+            this.materialButton8.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.materialButton8.UseAccentColor = false;
             this.materialButton8.UseVisualStyleBackColor = true;
             this.materialButton8.Visible = false;
             this.materialButton8.Click += new System.EventHandler(this.MaterialButton8_Click);
@@ -2159,7 +2159,7 @@ namespace KeyBit_ID.Forms
             this.materialTabControl3.Multiline = true;
             this.materialTabControl3.Name = "materialTabControl3";
             this.materialTabControl3.SelectedIndex = 0;
-            this.materialTabControl3.Size = new System.Drawing.Size(718, 433);
+            this.materialTabControl3.Size = new System.Drawing.Size(719, 433);
             this.materialTabControl3.TabIndex = 4;
             // 
             // tabPage9
@@ -2169,7 +2169,7 @@ namespace KeyBit_ID.Forms
             this.tabPage9.Location = new System.Drawing.Point(4, 31);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(710, 398);
+            this.tabPage9.Size = new System.Drawing.Size(711, 398);
             this.tabPage9.TabIndex = 0;
             this.tabPage9.Text = "Websites";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -2181,7 +2181,7 @@ namespace KeyBit_ID.Forms
             this.tabPage10.Location = new System.Drawing.Point(4, 31);
             this.tabPage10.Name = "tabPage10";
             this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(710, 398);
+            this.tabPage10.Size = new System.Drawing.Size(711, 398);
             this.tabPage10.TabIndex = 1;
             this.tabPage10.Text = "Banks";
             this.tabPage10.UseVisualStyleBackColor = true;
@@ -2197,7 +2197,7 @@ namespace KeyBit_ID.Forms
             this.gridControl2.LookAndFeel.UseDefaultLookAndFeel = false;
             this.gridControl2.MainView = this.gridView5;
             this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(704, 392);
+            this.gridControl2.Size = new System.Drawing.Size(704, 389);
             this.gridControl2.TabIndex = 2;
             this.gridControl2.UseEmbeddedNavigator = true;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -2436,7 +2436,7 @@ namespace KeyBit_ID.Forms
             this.tabPage11.ImageIndex = 2;
             this.tabPage11.Location = new System.Drawing.Point(4, 31);
             this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Size = new System.Drawing.Size(710, 398);
+            this.tabPage11.Size = new System.Drawing.Size(711, 398);
             this.tabPage11.TabIndex = 2;
             this.tabPage11.Text = "Cards";
             this.tabPage11.UseVisualStyleBackColor = true;
@@ -2447,7 +2447,7 @@ namespace KeyBit_ID.Forms
             this.tabPage12.ImageIndex = 1;
             this.tabPage12.Location = new System.Drawing.Point(4, 31);
             this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Size = new System.Drawing.Size(710, 398);
+            this.tabPage12.Size = new System.Drawing.Size(711, 398);
             this.tabPage12.TabIndex = 3;
             this.tabPage12.Text = "Other";
             this.tabPage12.UseVisualStyleBackColor = true;
@@ -2509,8 +2509,8 @@ namespace KeyBit_ID.Forms
             this.materialListView1.FullRowSelect = true;
             this.materialListView1.HideSelection = false;
             this.materialListView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem33,
-            listViewItem34});
+            listViewItem1,
+            listViewItem2});
             this.materialListView1.LabelEdit = true;
             this.materialListView1.Location = new System.Drawing.Point(3, 3);
             this.materialListView1.MinimumSize = new System.Drawing.Size(200, 100);
@@ -2582,8 +2582,8 @@ namespace KeyBit_ID.Forms
             this.materialListView2.FullRowSelect = true;
             this.materialListView2.HideSelection = false;
             this.materialListView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem35,
-            listViewItem36});
+            listViewItem3,
+            listViewItem4});
             this.materialListView2.LabelEdit = true;
             this.materialListView2.Location = new System.Drawing.Point(3, 3);
             this.materialListView2.MinimumSize = new System.Drawing.Size(200, 100);
@@ -2654,9 +2654,9 @@ namespace KeyBit_ID.Forms
             this.materialListView3.FullRowSelect = true;
             this.materialListView3.HideSelection = false;
             this.materialListView3.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem37,
-            listViewItem38,
-            listViewItem39});
+            listViewItem5,
+            listViewItem6,
+            listViewItem7});
             this.materialListView3.LabelEdit = true;
             this.materialListView3.Location = new System.Drawing.Point(0, 0);
             this.materialListView3.MinimumSize = new System.Drawing.Size(200, 100);
@@ -2726,7 +2726,7 @@ namespace KeyBit_ID.Forms
             this.materialListView4.FullRowSelect = true;
             this.materialListView4.HideSelection = false;
             this.materialListView4.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem40});
+            listViewItem8});
             this.materialListView4.LabelEdit = true;
             this.materialListView4.Location = new System.Drawing.Point(0, 0);
             this.materialListView4.MinimumSize = new System.Drawing.Size(200, 100);
@@ -2789,6 +2789,7 @@ namespace KeyBit_ID.Forms
             this.materialDrawer2.TabIndex = 5;
             this.materialDrawer2.Text = "materialDrawer2";
             this.materialDrawer2.UseColors = false;
+            this.materialDrawer2.Click += new System.EventHandler(this.materialDrawer2_Click);
             // 
             // materialTabSelector1
             // 
@@ -2820,6 +2821,51 @@ namespace KeyBit_ID.Forms
             this.tabPage13.TabIndex = 4;
             this.tabPage13.Text = "Tool Box";
             this.tabPage13.UseVisualStyleBackColor = true;
+            // 
+            // materialCard18
+            // 
+            this.materialCard18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard18.Controls.Add(this.pictureBox16);
+            this.materialCard18.Controls.Add(this.materialButton16);
+            this.materialCard18.Depth = 0;
+            this.materialCard18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard18.Location = new System.Drawing.Point(224, 227);
+            this.materialCard18.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard18.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard18.Name = "materialCard18";
+            this.materialCard18.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard18.Size = new System.Drawing.Size(200, 187);
+            this.materialCard18.TabIndex = 7;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Image = global::KeyBit_ID.Properties.Resources.hdd_96px;
+            this.pictureBox16.Location = new System.Drawing.Point(50, 21);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox16.TabIndex = 1;
+            this.pictureBox16.TabStop = false;
+            // 
+            // materialButton16
+            // 
+            this.materialButton16.AutoSize = false;
+            this.materialButton16.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton16.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton16.Depth = 0;
+            this.materialButton16.HighEmphasis = true;
+            this.materialButton16.Icon = null;
+            this.materialButton16.Location = new System.Drawing.Point(18, 130);
+            this.materialButton16.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton16.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton16.Name = "materialButton16";
+            this.materialButton16.Size = new System.Drawing.Size(164, 36);
+            this.materialButton16.TabIndex = 0;
+            this.materialButton16.Text = "Run  CheckDisk Script";
+            this.materialButton16.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+            this.materialButton16.UseAccentColor = true;
+            this.materialButton16.UseVisualStyleBackColor = true;
+            this.materialButton16.Click += new System.EventHandler(this.materialButton16_Click);
             // 
             // materialCard17
             // 
@@ -3111,13 +3157,14 @@ namespace KeyBit_ID.Forms
             this.materialCard7.Controls.Add(this.materialLabel14);
             this.materialCard7.Depth = 0;
             this.materialCard7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard7.Location = new System.Drawing.Point(273, 14);
+            this.materialCard7.Location = new System.Drawing.Point(599, 14);
             this.materialCard7.Margin = new System.Windows.Forms.Padding(14);
             this.materialCard7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialCard7.Name = "materialCard7";
             this.materialCard7.Padding = new System.Windows.Forms.Padding(14);
             this.materialCard7.Size = new System.Drawing.Size(243, 416);
             this.materialCard7.TabIndex = 1;
+            this.materialCard7.Visible = false;
             // 
             // materialLabel14
             // 
@@ -3192,6 +3239,7 @@ namespace KeyBit_ID.Forms
             this.materialSwitch1.TabIndex = 6;
             this.materialSwitch1.Text = "Enable Dark Mode";
             this.materialSwitch1.UseVisualStyleBackColor = true;
+            this.materialSwitch1.Visible = false;
             // 
             // materialCheckbox1
             // 
@@ -3209,6 +3257,7 @@ namespace KeyBit_ID.Forms
             this.materialCheckbox1.TabIndex = 5;
             this.materialCheckbox1.Text = "Require Master Password";
             this.materialCheckbox1.UseVisualStyleBackColor = true;
+            this.materialCheckbox1.CheckedChanged += new System.EventHandler(this.materialCheckbox1_CheckedChanged);
             // 
             // materialComboBox2
             // 
@@ -3219,7 +3268,7 @@ namespace KeyBit_ID.Forms
             this.materialComboBox2.DropDownHeight = 174;
             this.materialComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.materialComboBox2.DropDownWidth = 121;
-            this.materialComboBox2.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialComboBox2.FormattingEnabled = true;
             this.materialComboBox2.Hint = "Select a theme color";
@@ -3236,6 +3285,7 @@ namespace KeyBit_ID.Forms
             this.materialComboBox2.Size = new System.Drawing.Size(205, 49);
             this.materialComboBox2.StartIndex = 0;
             this.materialComboBox2.TabIndex = 4;
+            this.materialComboBox2.SelectedIndexChanged += new System.EventHandler(this.materialComboBox2_SelectedIndexChanged);
             // 
             // pictureBox8
             // 
@@ -3378,7 +3428,7 @@ namespace KeyBit_ID.Forms
             // 
             this.materialLabel9.AutoSize = true;
             this.materialLabel9.Depth = 0;
-            this.materialLabel9.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel9.Location = new System.Drawing.Point(78, 34);
             this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel9.Name = "materialLabel9";
@@ -3407,7 +3457,7 @@ namespace KeyBit_ID.Forms
             // 
             this.materialLabel7.AutoSize = true;
             this.materialLabel7.Depth = 0;
-            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel7.Location = new System.Drawing.Point(78, 15);
             this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel7.Name = "materialLabel7";
@@ -3502,7 +3552,7 @@ namespace KeyBit_ID.Forms
             // 
             this.materialLabel8.AutoSize = true;
             this.materialLabel8.Depth = 0;
-            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel8.Location = new System.Drawing.Point(78, 34);
             this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel8.Name = "materialLabel8";
@@ -3514,7 +3564,7 @@ namespace KeyBit_ID.Forms
             // 
             this.materialLabel6.AutoSize = true;
             this.materialLabel6.Depth = 0;
-            this.materialLabel6.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel6.Location = new System.Drawing.Point(78, 15);
             this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel6.Name = "materialLabel6";
@@ -3554,7 +3604,7 @@ namespace KeyBit_ID.Forms
             // 
             this.mlblSoftwareDev.AutoSize = true;
             this.mlblSoftwareDev.Depth = 0;
-            this.mlblSoftwareDev.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.mlblSoftwareDev.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.mlblSoftwareDev.Location = new System.Drawing.Point(78, 55);
             this.mlblSoftwareDev.MouseState = MaterialSkin.MouseState.HOVER;
             this.mlblSoftwareDev.Name = "mlblSoftwareDev";
@@ -3566,7 +3616,7 @@ namespace KeyBit_ID.Forms
             // 
             this.mlblSoftwareVersion.AutoSize = true;
             this.mlblSoftwareVersion.Depth = 0;
-            this.mlblSoftwareVersion.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.mlblSoftwareVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.mlblSoftwareVersion.Location = new System.Drawing.Point(78, 36);
             this.mlblSoftwareVersion.MouseState = MaterialSkin.MouseState.HOVER;
             this.mlblSoftwareVersion.Name = "mlblSoftwareVersion";
@@ -3578,7 +3628,7 @@ namespace KeyBit_ID.Forms
             // 
             this.mlblSoftwareName.AutoSize = true;
             this.mlblSoftwareName.Depth = 0;
-            this.mlblSoftwareName.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.mlblSoftwareName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.mlblSoftwareName.Location = new System.Drawing.Point(78, 17);
             this.mlblSoftwareName.MouseState = MaterialSkin.MouseState.HOVER;
             this.mlblSoftwareName.Name = "mlblSoftwareName";
@@ -3705,51 +3755,6 @@ namespace KeyBit_ID.Forms
             this.vaultCheck.Enabled = true;
             this.vaultCheck.Tick += new System.EventHandler(this.VaultCheck_Tick);
             // 
-            // materialCard18
-            // 
-            this.materialCard18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard18.Controls.Add(this.pictureBox16);
-            this.materialCard18.Controls.Add(this.materialButton16);
-            this.materialCard18.Depth = 0;
-            this.materialCard18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard18.Location = new System.Drawing.Point(224, 227);
-            this.materialCard18.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard18.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard18.Name = "materialCard18";
-            this.materialCard18.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard18.Size = new System.Drawing.Size(200, 187);
-            this.materialCard18.TabIndex = 7;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Image = global::KeyBit_ID.Properties.Resources.hdd_96px;
-            this.pictureBox16.Location = new System.Drawing.Point(50, 21);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 1;
-            this.pictureBox16.TabStop = false;
-            // 
-            // materialButton16
-            // 
-            this.materialButton16.AutoSize = false;
-            this.materialButton16.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton16.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton16.Depth = 0;
-            this.materialButton16.HighEmphasis = true;
-            this.materialButton16.Icon = null;
-            this.materialButton16.Location = new System.Drawing.Point(18, 130);
-            this.materialButton16.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton16.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton16.Name = "materialButton16";
-            this.materialButton16.Size = new System.Drawing.Size(164, 36);
-            this.materialButton16.TabIndex = 0;
-            this.materialButton16.Text = "Run  CheckDisk Script";
-            this.materialButton16.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
-            this.materialButton16.UseAccentColor = true;
-            this.materialButton16.UseVisualStyleBackColor = true;
-            this.materialButton16.Click += new System.EventHandler(this.materialButton16_Click);
-            // 
             // MainWindow
             // 
             this.AcceptButton = this.btnMaster;
@@ -3791,11 +3796,11 @@ namespace KeyBit_ID.Forms
             ((System.ComponentModel.ISupportInitialize)(this.gridView15)).EndInit();
             this.materialTabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.materialCard10.ResumeLayout(false);
             this.materialCard10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.materialCard11.ResumeLayout(false);
             this.materialCard11.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.circularGauge3)).EndInit();
@@ -3844,6 +3849,8 @@ namespace KeyBit_ID.Forms
             this.tabPage7.ResumeLayout(false);
             this.tabPage8.ResumeLayout(false);
             this.tabPage13.ResumeLayout(false);
+            this.materialCard18.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.materialCard17.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.materialCard16.ResumeLayout(false);
@@ -3876,8 +3883,6 @@ namespace KeyBit_ID.Forms
             this.materialCard2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
-            this.materialCard18.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.ResumeLayout(false);
 
         }

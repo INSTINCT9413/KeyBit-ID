@@ -36,8 +36,16 @@ namespace KeyBit_ID.Forms
         readonly Wait thread = new Wait();
         // create new instance of QueryOperations
         QueryOperations QO = new QueryOperations();
+
         // create new instance of ThreadStarter
-        readonly ThreadStarter TS = new ThreadStarter();
+        private readonly ThreadStarter TS = new ThreadStarter();
+
+        // create delegate for method that takes index as int
+        public delegate string themeIndex(int index);
+        // create new class of ThemeSelector
+        static ThemeManager theme = new ThemeManager();
+        // create delegate for method
+        themeIndex ti = new themeIndex(theme.ThemeSelector);
 
         // create a string and set it to the updater path
         // this is a program that is created in Advanced Installer program (NOT INCLUDED)
@@ -50,10 +58,10 @@ namespace KeyBit_ID.Forms
             // Show a splashscreen.
             FluentSplashScreenOptions op = new FluentSplashScreenOptions
             {
-                Title = "KeyBit ID",
+                Title = Application.ProductName,
                 Subtitle = "Password Manager",
-                RightFooter = "Starting...",
-                LeftFooter = "Copyright © 2021 Dominion Studios Ltd." + Environment.NewLine + "All Rights reserved.",
+                RightFooter = Application.ProductVersion + "\nStarting...",
+                LeftFooter = "Copyright © 2021 Dominion Studios Ltd.\nAll Rights reserved.",
                 LoadingIndicatorType = FluentLoadingIndicatorType.Dots,
                 OpacityColor = Color.FromArgb(50, 50, 50),
                 Opacity = 130
@@ -95,6 +103,29 @@ namespace KeyBit_ID.Forms
             //materialSkinManager.ColorScheme = new ColorScheme(Primary.Purple800, Primary.BlueGrey900, Primary.Purple500, Accent.Purple100, TextShade.WHITE);
             // set color of the skin manager, which controls the color scheme of the program
             materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue900, Primary.BlueGrey900, Primary.Blue300, Accent.Blue400, TextShade.WHITE);
+            // set theme according to the setting value
+            if (Settings.Default.Theme == "Blue") // blue
+            {
+                // set color scheme
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue900, Primary.BlueGrey900, Primary.Blue300, Accent.Blue400, TextShade.WHITE);
+                // update combobox to reflect change
+                materialComboBox2.SelectedIndex = 0;
+            }
+            else if (Settings.Default.Theme == "Red") // red
+            {
+                // set color scheme
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.Red900, Primary.Red900, Primary.Red300, Accent.Red400, TextShade.WHITE);
+                // update combobox to reflect change
+                materialComboBox2.SelectedIndex = 1;
+            }
+            else if (Settings.Default.Theme == "Green") // green
+            {
+                // set color scheme
+                materialSkinManager.ColorScheme = new ColorScheme(Primary.Green900, Primary.Green900, Primary.Green300, Accent.Green400, TextShade.WHITE);
+                // update combobox to reflect change
+                materialComboBox2.SelectedIndex = 2;
+            }
+
             // set table adapters to the database and what table 
             this.websitesTableAdapter.Fill(this.keyStoreDataSet.Websites);
             this.banksTableAdapter.Fill(this.keyStoreDataSet.Banks);
@@ -123,7 +154,10 @@ namespace KeyBit_ID.Forms
             materialTabControl3.Visible = false;
             this.BringToFront();
 
-
+            if (!Settings.Default.RMP == true)
+            {
+                MasterUnlock();
+            }
         }
         private void MainWindow_Closing(object sender, FormClosingEventArgs e)
         {
@@ -142,6 +176,7 @@ namespace KeyBit_ID.Forms
             mlblSoftwareDev.Text = "" + Application.CompanyName; // set company name equal to application meta
             mlblSoftwareVersion.Text = "Version: " + Application.ProductVersion; // set version equal to application meta
             mlblSoftwareName.Text = "Name: " + Application.ProductName; // set name equal to application meta
+
 
 
         }
@@ -325,8 +360,34 @@ namespace KeyBit_ID.Forms
 
         private void BtnMaster_Click(object sender, EventArgs e)
         {
-            // if textbox text matches UserID masterpassowrd
-            if (tbMaster.Text == UserID.MasterPassword)
+            MasterUnlock();
+        }
+        public void MasterUnlock()
+        {
+            if (Settings.Default.RMP == true)
+            {
+                // if textbox text matches UserID masterpassowrd
+                if (tbMaster.Text == UserID.MasterPassword)
+                {
+                    // show the tabcontrol
+                    materialTabControl3.Visible = true;
+                    // change selected tabe page
+                    // materialTabControl1.SelectedTab = tabPage2;
+                    panel2.Visible = true;
+                    // make the unlock controls invisible
+                    panel1.Visible = false;
+                    panel1.Hide();
+                }
+                else
+                {
+                    // message box error
+                    MaterialMessageBox.Show("Error: The password you entered does not look correct", "Incorrect Master Password!",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error, false);
+                }
+
+                materialCheckbox1.Checked = true;
+            }
+            else
             {
                 // show the tabcontrol
                 materialTabControl3.Visible = true;
@@ -336,14 +397,8 @@ namespace KeyBit_ID.Forms
                 // make the unlock controls invisible
                 panel1.Visible = false;
                 panel1.Hide();
+                materialCheckbox1.Checked = false;
             }
-            else
-            {
-                // message box error
-                MaterialMessageBox.Show("Error: The password you entered does not look correct", "Incorrect Master Password!",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error, false);
-            }
-
             // enable account button
             materialButton4.Visible = true;
             materialCard11.Visible = true;
@@ -370,7 +425,7 @@ namespace KeyBit_ID.Forms
             cardTotal.Text = "Card Records: " + QO.cardCount;
             otherTotal.Text = "Other Records: " + QO.otherCount;
             totalCounts.Text = "Total Records in vault: " + QO.TotalCount();
-
+            // call the event 
         }
         public void UnlockDashThread()
         {
@@ -440,14 +495,14 @@ namespace KeyBit_ID.Forms
                 {
                     // show a button to save vault
                     materialButton8.Visible = true;
-
+                    materialButton9.Visible = true;
                 }
             }
             else
             {
                 // hide button for saving vault
                 materialButton8.Visible = false;
-
+                materialButton9.Visible = false;
             }
         }
 
@@ -700,6 +755,49 @@ namespace KeyBit_ID.Forms
             {
                 MaterialMessageBox.Show("KeyBit ID could not create and run the 'CHKDSK Script'. You may need to run KeyBit ID as an administrator and try again! \n " + ee.Message, "Administrative Error", MessageBoxButtons.OK, MessageBoxIcon.Warning, false);
             }
+        }
+
+        // combobox selected index changed sets the theme
+        private void materialComboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // if index 0
+            if (materialComboBox2.SelectedIndex == 0)
+            {
+                // invoke delegate with index
+                ti(0);
+
+            }
+            // if index 1
+            else if (materialComboBox2.SelectedIndex == 1)
+            {
+                // invoke delegate with index
+                ti(1);
+            }
+            // if index 2
+            else if (materialComboBox2.SelectedIndex == 2)
+            {
+                // invoke delegate with index
+                ti(2);
+            }
+        }
+
+        private void materialCheckbox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (materialCheckbox1 .Checked == true)
+            {
+                Settings.Default.RMP = true;
+                Settings.Default.Save();
+            }
+            else
+            {
+                Settings.Default.RMP = false;
+                Settings.Default.Save();
+            }
+        }
+
+        private void materialDrawer2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
