@@ -113,7 +113,7 @@ If you're interested in modifying this project, a few things you need to setup b
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+These prerequisites that are required to run and edit this project without errors.
 * .NET Framework 4.8 (Preferred)
   ```sh
   https://dotnet.microsoft.com/download/dotnet-framework/net48
